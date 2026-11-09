@@ -2,7 +2,7 @@
 
 Исходники независимой адаптации **Survivor Edition 1.0.0-rc.3** (LoudD). Основа — Cataclysm: Dark Days Ahead 0.I (Ito), коммит [27939e29](https://github.com/CleverRaven/Cataclysm-DDA/commit/27939e29b8b4ddc081490d9f51de59a459c88df6), Whales и участники Cataclysm-DDA.
 
-В папке есть код, проекты сборки, тесты, игровые данные и моды, графика, Survivor-SFX, полный редактируемый русский перевод и закреплённые исходники зависимостей с патчами vcpkg. Изменения версии rc.3 включают исправление устаревшего кеша JSON и переработку названий, описаний и рецептов вымышленных веществ. История проекта и атрибуция приведены в [исходном README](README_UPSTREAM.md), [титрах](data/credits/en.credits) и [описании изменений](legal/EDITION_CHANGES.md).
+В папке есть код, проекты сборки, тесты, игровые данные и моды, графика, Survivor-SFX, полный редактируемый русский перевод и закреплённые исходники зависимостей с патчами vcpkg. Изменения версии rc.3 включают исправление устаревшего кеша JSON и переработку названий, описаний и рецептов вымышленных веществ. История проекта и атрибуция приведены в [исходном README](README_UPSTREAM.md), [титрах](data/credits/en.credits) и [описании изменений](legal/EDITION_CHANGES.md). вы можете найти [игру на vkplay](https://vkplay.ru/play/game/cataclysm-dark-days-ahead-survivor-edition-50785/?utm_source=github) .
 
 ## Сборка
 
