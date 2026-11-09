@@ -1,0 +1,13 @@
+{
+  "generator": "image_gen.imagegen (built-in)",
+  "model": "not exposed",
+  "date": "2026-10-14",
+  "path": "assets/generated/survivor-icon-minimal-master.png",
+  "generation_id": "exec-0cdeb705-b98f-47eb-b126-1b12502bd96a",
+  "source": "AI_GENERATED",
+  "transparent_background": true,
+  "prompt": "Use case: logo-brand. Create a brand new original minimalist app icon for the independent post-apocalyptic survival game Cataclysm: Dark Days Ahead — Survivor Edition. Single square composition. A charcoal rounded-square badge with generous transparent space outside its rounded corners, containing one very simple warm amber campfire flame silhouette centered inside an off-white broken circular ring. The flame is a single bold geometric silhouette with one clean dark negative-space notch; the ring has one intentional small gap at its lower right. Just three flat colors: deep charcoal #20282a, warm amber #e5a34e, warm off-white #eee5ce. Flat vector-like graphic, precise edges, balanced centered geometry, generous margins, bold shapes readable at 16x16 and 46x46. Restrained, serious survival mood; clean contemporary minimalism. No text, no initials, no numbers, no extra pictograms, no realistic fire, no gradients, no glow, no shadows, no textures, no 3D, no decorative border, no watermark, no existing franchise/logo imitation. Output a crisp high-resolution square PNG with an actual transparent background outside the badge.",
+  "visual_review": "AI inspected: original flame silhouette and broken ring, no text, readable simple composition; no human review claimed.",
+  "replaces": "Earlier code-native icon, at user's explicit request",
+  "human_reviewed": false
+}

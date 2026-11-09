@@ -1,0 +1,8 @@
+{
+  "license": "CECILL-C",
+  "source_url": "https://raw.githubusercontent.com/spdx/license-list-data/main/text/CECILL-C.txt",
+  "sha256": "7b00493e6580710aad04faf2747d74b6de840a47183f76f5a3645f1fce69245d",
+  "component": "src/third-party/imgui/imgui_freetype.cpp optional Lunasvg adapter",
+  "scope": "Source distribution only. IMGUI_ENABLE_FREETYPE_LUNASVG is disabled in this executable.",
+  "upstream_notice": "https://gitlab.freedesktop.org/freetype/freetype-demos/-/blob/master/src/rsvg-port.c"
+}

@@ -1,0 +1,315 @@
+# BEGIN SURVIVOR RIGHTS NOTICE
+<color_white>Survivor Edition authors and open licenses</color>
+Independent modified CDDA 0.I edition; no upstream endorsement is claimed.
+Component license rights, including permitted copying and modification, remain in force.
+Full terms and required notices: legal/THIRD_PARTY_NOTICES_EN.md.
+GNU GPL version 3 only scheme prepared for the modified program: legal/PROGRAM_LICENSE_SCHEME_EN.md.
+Provided without warranty to the extent permitted by law; see the full license terms.
+Complete program and dependency source: legal/source/corresponding-source.zip.
+Unifont source: legal/font-source. LGPL materials: legal/source/relink-kit.zip.
+Edition changes and provenance: legal/EDITION_CHANGES.md.
+
+Whales; Cataclysm: Dark Days Ahead contributors — CC BY-SA 3.0.
+https://github.com/CleverRaven/Cataclysm-DDA
+https://creativecommons.org/licenses/by-sa/3.0/
+Ultica: I-am-Erk and CDDA-Tilesets contributors; filler trees by Yar, edited by I-am-Erk. CC BY-SA 3.0.
+Larwick Overmap: Larwick; ASCII tiles: CDDA contributors.
+https://github.com/I-am-Erk/CDDA-Tilesets
+Dear ImGui: Omar Cornut — MIT. ImTui: Georgi Gerganov — MIT.
+Optional Lunasvg adapter from FreeType demos: CeCILL-C; disabled in this binary, source notice retained.
+stb: Sean Barrett — MIT. ProggyClean: Tristan Grimmer — MIT.
+FlatBuffers: Google Inc. — Apache-2.0. Zstandard: Meta Platforms, Inc. — BSD.
+PLF list/colony: Matthew Bentley — zlib. Pinyin data: Unicode, Inc.
+This software is based in part on the work of the FreeType Team.
+This software is based in part on the work of the Independent JPEG Group.
+mpg123: Copyright (c) 1995-2020 by Michael Hipp and others,
+free software under the terms of the LGPL v2.1.
+Simplex noise: Copyright (c) 2007-2012 Eliot Eshelman — GPL v3 or later.
+Roboto: Google — Apache-2.0; Terminus: Dimitar Toshkov Zhekov, Tilman Blumenbach — OFL-1.1.
+VecTerminus12: Abraham Lee — OFL-1.1; Unifont12.0.01: Roman Czyborra, Paul Hardy,
+Qianqian Fang, Andrew Miller, Johnnie Weaver, David Corbett et al. — GPL v2+ with font exception.
+Survivor-SFX / CC-Sounds: Fris0uman and contributors; configuration CC BY-SA 4.0.
+Individual recordings: CC0-1.0, CC-BY-3.0 or CC-BY-4.0; exact per-file credits:
+data/sound/Survivor-SFX/ATTRIBUTION.md
+-sihiL, AcousticMemory, AderuMoro, alex36917, ali-6868, Ali@k, AmeAngelofSin, Anthousai, apinasaundi, Apostolinkyyti, Aris621, Ashe Kirk, AUDACITIER, b-train, bananplyte, battlestar10, beambot, bellick, blouhond, bmlake, BOBtheROSS, Breviceps, bruno.auzet, cabled_mess, carmsie, chewiesmissus, chromakei, CogFireStudios, conleec, Danjocross, dasebr, datasoundsample, dawidwmika, deleted_user_4541234, deleted_user_7146007, dheming, digifishmusic, dmoran87, dobroide, DoctorBoomstick, eardeer, egomassive, EminYILDIRIM, estupe, f3bbbo, Fabrizio84, FiveBrosStopMosYT, Flammos, FlatHill, florianreichelt, FST180081, FuzzyTuesday, GiocoSound, GiovanniProvenzale, Glaneur de sons, GoodSoundForYou, guyburns, Hanbaal, Iam_calderon, InspectorJ, j1987, jackthemurray, joe_anderson22, JoelAudio, JustLaz, jzielke011, Kinoton, klankbeeld, kretopi, kwahmah_02, kyles, Legnalegna55, LeMudCrab, LittleRobotSoundFactory, logant547, magnuswaker, mateusboga, mazlyn, micahlg, Mike Koenig, Mixedupmoviestuff, Modding, monotraum, MordinSolus, MoveAwayPodcast, MrPokephile, mrsorbias, MWsfx, nathanaelj83, nicola_ariutti, Nox_Sound, nuncaconoci, orangesheepdog, original_sound, oscaraudiogeek, pagancow, passAirmangrace, PaulMorek, Peter Havran (Raven2236), pfranzen, phantastonia, philRacoIndie, Podcapocalipsis, PorkMuncher, quality83, qubodup, ramonmineiro, Reitanna, Rolly-SFX, rombart, rsn267, Ryanz-Official, samulis, sergeeo, SFX_AFRIK, Sheyvan, sickfin, SilentStrikeZ, SilverIllusionist, Slave2theLight, Sophia_C, soularitysound, Soundscape_Leuphana, SoundsnapFX, SpliceSound, spycrah, super8ude, tatianafeudal, taure, TechspiredMinds, Teebee_Deael, This_Is_A_Hoax, tim.kahn, Tokyoshowdown, tonsil5, unfa, WEL, xdrav, yadronoff
+
+aftershock: Esther, Coolthulu, Maleclypse, Candlebury, Mom_Bun
+aftershock_exoplanet: Maleclypse, Candlebury, Mom_Bun
+alt_map_key: Sunshine, thaelina
+backrooms: TGW
+bombastic_perks: bombasticSlacks
+cbm_slots: anothersimulacrum
+classic_zombies: Hirmuolio, I-am-Erk
+crazy_cataclysm: Kevin
+deadly_bites: dseguin
+defense_mode: Whales, MNG-cataclysm
+desertpack: Dpwb, DracoGriffin
+DinoMod: ephemeralstoryteller, damien, LyleSy
+extra_mut_scens: Saicchi
+generic_guns: Tonkatsu
+innawood: Lightwave
+Isolation_Protocol: Candlebury
+limb_wip: Venera3
+MA: ZhilkinSerg
+magiclysm: KorGgenT, GuardianDll, Aptronym, LaVeyanFiend
+megafauna: merrygin
+mindovermatter: StandingStorm
+MMA: Photoloss
+my_sweet_cataclysm: Fris0uman
+Mythos-Creatures: mythosmod
+no_hope: Night_Pryanik
+no_npc_food: Coolthulhu
+Only_Wildlife: Kodi Arfer
+package_bionic_professions: Erk/Everyone
+perk_melee_system: John-Candlebury
+personal_portal_storms: BombasticSlacks
+railroads: ZhilkinSerg
+Rummaging: Aunt_Su | 苏大妈#7831
+ruralbiome: I-am-Erk
+skyisland: TGW
+standard_combat_test: Venera3
+Tamable_Wildlife: Termineitor244
+translate_dialogue: I-am-Erk
+tropicata: Xaritscin
+xedra_evolved: Maleclypse, Guardiandll, StandingStorm
+# END SURVIVOR RIGHTS NOTICE
+
+# Lines longer than 78 characters will be wrapped automatically
+# The following line is for reference
+##############################################################################
+(<color_cyan>0.I</color>):</color>
+<color_white>Original author:</color>    <color_white>Project Manager:</color>
+<color_yellow>Whales</color> (<color_dark_gray>retired</color>)    <color_yellow>KevinGranade</color>
+
+<color_white>Special thanks to:</color>
+<color_yellow>Standing-Storm</color> - Creator and maintainer of the enormous 'Mind over Matter' mod and numerous contributions to other mods (fair folk and espers and wizards, oh my!)
+<color_yellow>Maleclypse</color> - Xedra Evolved maintainer and merger, clocking in at over 2,000 (thousand!!!) merges this release cycle.
+<color_yellow>GuardianDll</color> - Merging, non-specific json and c++ changes, memorizing and quoting documentation for everyone needed.  "I don't remember making so many PRs, what the hell?" - GuardianDll
+<color_yellow>RenechCDDA</color> - Improvements to NPC factions, basecamps, and vehicles.
+<color_yellow>Procyonae</color> - Ludicrous amount of infrastructure PRs, mapgen code is thriving under their watch.
+<color_yellow>PatrikLundell</color> - An absurd amount of bugfixes and important safety changes to mapgen, tripoint infrastructure, and other critical systems.
+<color_yellow>Holli</color> - For their dedicated work on all things gun and gun related.
+<color_yellow>b3brodie</color> - Tons of infrastructure support for spells, bettering both mods and the base game.
+<color_yellow>Milopetilo</color> - Awesome work on new mapgen, parameters for existing mapgen, item group overhauls, and more.
+<color_yellow>ShnitzelX2</color> - Electronic storage for items and cleaning up 10 years of technical debt by moving items to be loaded with generic_factory. (Don't be jealous, but they're my favorite.)
+<color_yellow>alef</color> - Keeping the game building so we can keep developing and playing.
+<color_yellow>John Candlebury</color> - Aftershock. Did you know you can own and fly a colossal spaceship in Aftershock now? Yeah.
+<color_yellow>katemonster33</color> - Took the game by the storm with ImGuI and ImTui. Bringing us the UI we've always wanted.
+<color_yellow>Daniel Brooks 'db48x'</color> - For fundamental work on our beautiful new ImGui windows.
+<color_yellow>moxian</color> - Mission-critical work on build and IWYU infrastructure. They've made every developer's life easier.
+<color_yellow>akrieger</color> - Continued game speed improvements, keeping CI alive, and saving hard drives from Sky Islands games with compressed saves.
+<color_yellow>SariusSkelrets</color> - Expansion and polishing of Xedra Evolved's vampire content.
+<color_yellow>ehughsbaird</color>, <color_yellow>Karol1223</color>, and <color_yellow>mqrause</color>.
+
+<color_white>Special thanks for art contributions:</color>
+<color_yellow>hoasd1</color> - Most tileset contributions this cycle, he chose to ride off into the sunset with style. We wish him the best of luck with where life takes him, but Ultica will forever be shaped by his work!
+<color_yellow>gettingusedto</color> - MSX+ heavyweight and all around nice guy. We've gotten used to (heh) seeing them around!
+
+<color_white>For a full list of contributors please see:</color>
+<color_cyan>https://github.com/CleverRaven/Cataclysm-DDA/contributors</color>
+<color_cyan>https://github.com/I-am-Erk/CDDA-Tilesets/graphs/contributors</color>
+<color_cyan>https://github.com/pixel-32/CDDA-tileset/graphs/contributors</color>
+
+<color_light_cyan>Cataclysm</color>: <color_light_blue>Dark Days Ahead</color> is released under <color_white>CC-BY-SA 3.0</color>:
+<color_cyan>https://creativecommons.org/licenses/by-sa/3.0/</color>
+
+
+******************************************************************************
+
+(<color_cyan>0.H</color>):</color>
+<color_white>Original author:</color>    <color_white>Project Manager:</color>
+<color_yellow>Whales</color> (<color_dark_gray>retired</color>)    <color_yellow>KevinGranade</color>
+
+<color_white>Current Main Developers:</color>
+<color_yellow>anoobindisguise</color> - Relentless bugfixing and polish across most areas of the game.
+<color_yellow>GuardianDll</color> - Random changes in game, random changes in mods.
+<color_yellow>irwiss</color> - Massive bugfixing and code hardening.
+<color_yellow>Maleclypse</color> - Lead Merger for this release cycle and many enhancements to Xedra Evolved.
+
+<color_white>Special thanks to:</color>
+<color_yellow>anothersimulacrum</color> - For solving difficult problems.
+<color_yellow>akrieger</color> - The Slowdown Smasher.
+<color_yellow>Fris0uman</color> - For managing the tilesets and more.
+<color_yellow>John-Candlebury</color> - For boss fights and Isolation Protocols.
+<color_yellow>Night-Pryanik</color> - For making colds and the flu finally make sense.
+<color_yellow>PatrikLundell</color> - Massive and sorely needed overhauls to faction camp content and infrastructure.
+<color_yellow>Procyonae</color> - For so much mapgen improvements and all the backporting.
+<color_yellow>Qrox</color> - For bugfixes, reviews and infrastructure.
+<color_yellow>Ramza13</color> - For making so many modders dreams come true.
+<color_yellow>RenechCDDA</color> - For the Shadow, camp improvements and NPC Personality.
+<color_yellow>Rivet-the-Zombie</color> - For hitting 10,000 merges.
+<color_yellow>Standing-Storm</color> - For the fastest 0 to 100 in several years.
+<color_yellow>Venera3</color> - For limbification progress.
+<color_yellow>ZhilkinSerg</color> - For merging all the things.
+<color_yellow>alef</color>, <color_yellow>andrei8l</color>, <color_yellow>Karol1223</color>, <color_yellow>mqrause</color>, and <color_yellow>lispcoc</color>.
+
+<color_white>Special thanks for art contributions:</color>
+<color_yellow>Fris0uman</color>, <color_yellow>Golfavel</color>, <color_yellow>vetall812</color>, <color_yellow>Dandy-boy</color>,
+<color_yellow>gettingusedto</color>, and many more.
+
+<color_white>For a full list of contributors please see:</color>
+<color_cyan>https://github.com/CleverRaven/Cataclysm-DDA/contributors</color>
+<color_cyan>https://github.com/I-am-Erk/CDDA-Tilesets/graphs/contributors</color>
+<color_cyan>https://github.com/pixel-32/CDDA-tileset/graphs/contributors</color>
+
+<color_light_cyan>Cataclysm</color>: <color_light_blue>Dark Days Ahead</color> is released under <color_white>CC-BY-SA 3.0</color>:
+<color_cyan>https://creativecommons.org/licenses/by-sa/3.0/</color>
+
+******************************************************************************
+
+(<color_cyan>0.G</color>):</color>
+<color_white>Original author:</color>    <color_white>Project Manager:</color>
+<color_yellow>Whales</color> (<color_dark_gray>retired</color>)    <color_yellow>KevinGranade</color>
+
+<color_white>Current Main Developers:</color>
+<color_yellow>I-am-Erk</color> - Ultica, lore writing, ideas guy.
+<color_yellow>KorGgenT</color> - Professional yak shaver.
+
+<color_white>Special thanks to:</color>
+<color_yellow>anothersimulacrum</color> - For stepping in and doing the hard work.
+<color_yellow>BombasticSlacks</color> - For fleshing out the armor system and making us sweat.
+<color_yellow>Fris0uman</color> - For getting our fridges working.
+<color_yellow>John-Candlebury</color> - For Hub01 and all the beautiful maps.
+<color_yellow>jbytheway</color> - For parametric mapgen and mutable locations.
+<color_yellow>BrettDong</color> - For translations and analyzing weird bugs.
+<color_yellow>wapcaplet</color> - For all things sidebar-related.
+<color_yellow>ZhilkinSerg</color> - For merging all the things.
+<color_yellow>Rivet-the-Zombie</color> - For keeping up the one-merge-per-day record.
+<color_yellow>Night-Pryanik</color> - For countless bugfixes and enhancements.
+<color_yellow>Qrox</color> - For making the UI infrastructure even better.
+<color_yellow>Ramza13</color> - For turning JSON into a turing-complete language.
+<color_yellow>Drew4484</color> - For all the steel.
+<color_yellow>LyleSY</color> - For even more dinosaurrrs.
+<color_yellow>irwiss</color>, <color_yellow>Maleclypse</color>, <color_yellow>Venera3</color>, <color_yellow>MylieDaniels</color>, <color_yellow>andrei8l</color>, <color_yellow>mqrause</color>, and <color_yellow>Eltank</color>.
+
+<color_white>Special thanks for art contributions:</color>
+<color_yellow>Fris0uman</color>, <color_yellow>Golfavel</color>, <color_yellow>vetall812</color>, <color_yellow>Dandy-boy</color>, and many more.
+
+<color_white>For a full list of contributors please see:</color>
+<color_cyan>https://github.com/CleverRaven/Cataclysm-DDA/contributors</color>
+
+<color_light_cyan>Cataclysm</color>: <color_light_blue>Dark Days Ahead</color> is released under <color_white>CC-BY-SA 3.0</color>:
+<color_cyan>https://creativecommons.org/licenses/by-sa/3.0/</color>
+
+******************************************************************************
+
+<color_white>Main Developers (<color_cyan>0.F</color>):</color>
+<color_yellow>mlangsdorf</color> - Vehicles, boats, basecamps and modding guides.
+<color_yellow>I-am-Erk</color> - Ultica legacy lives on.
+<color_yellow>KorGgenT</color> - Not letting me know where to put my two-by-fours.
+
+<color_white>Special thanks to (<color_cyan>0.F</color>):</color>
+<color_yellow>Aivean</color> - For outstanding performance.
+<color_yellow>anothersimulacrum</color> - For making me weary.
+<color_yellow>jbytheway</color> - For making me achieve things.
+<color_yellow>BrettDong</color> - For translations and more.
+<color_yellow>Qrox</color> - For showing location of error messages.
+<color_yellow>LyleSY</color> - For dinosaurrrs.
+
+<color_white>Special thanks for art contributions (<color_cyan>0.F</color>):</color>
+<color_yellow>acepleiades</color>, <color_yellow>barsoosayque</color>, <color_yellow>Fris0uman</color>, <color_yellow>int-ua</color>, and many more.
+
+<color_white>For a full list of contributors please see:</color>
+<color_cyan>https://github.com/CleverRaven/Cataclysm-DDA/contributors</color>
+
+<color_light_cyan>Cataclysm</color>: <color_light_blue>Dark Days Ahead</color> is released under <color_white>CC-BY-SA 3.0</color>:
+<color_cyan>https://creativecommons.org/licenses/by-sa/3.0/</color>
+
+******************************************************************************
+
+<color_white>Main Developers (<color_cyan>0.E</color>):</color>
+<color_yellow>mlangsdorf</color> - Vehicles, boats, basecamps and modding guides.
+<color_yellow>I-am-Erk</color> - Ultica, dialogs, NPCs and clutter in the kitchens.
+<color_yellow>KorGgenT</color> - Magiclysm and stomach aches.
+
+<color_white>Special thanks to (<color_cyan>0.E</color>):</color>
+<color_yellow>Narc</color> - For maintaining the automatic Jenkins build-bot.
+<color_yellow>Rivet-the-Zombie</color> - For merging a PR a day.
+<color_yellow>BevapDin</color> - For code reviews and refactoring efforts.
+<color_yellow>BrettDong</color> - For translations.
+<color_yellow>curstwist</color> - For roofs, mapgens, NPCs and changelogs.
+<color_yellow>davidpwbrown</color> - For auto-travel and auto-driving.  Also horse-riding.
+<color_yellow>jbytheway</color> - For CI work and making his (tri)point.
+<color_yellow>Hymore246</color> - For martial arts overhaul.
+<color_yellow>Qrox</color> - For readable backtraces in Windows builds.
+<color_yellow>ZhilkinSerg</color> - For mergetesting.
+
+<color_white>For a full list of contributors please see the Git repo:</color>
+<color_cyan>https://github.com/CleverRaven/Cataclysm-DDA</color>
+
+******************************************************************************
+
+<color_white>Main Developers (<color_cyan>0.D</color>):</color>
+<color_yellow>KevinGranade</color>, <color_yellow>Rivet-the-Zombie</color>, <color_yellow>BevapDin</color>, <color_yellow>Coolthulu</color>, <color_yellow>i2amroy</color>
+
+<color_white>Special thanks to (<color_cyan>0.D</color>):</color>
+<color_yellow>Narc</color> - For setting up the automatic Jenkins build-bot.
+<color_yellow>Acidia</color> - For wonderful NPC, Quest and Location contributions.
+<color_yellow>Wuzzy</color> and <color_yellow>VlasovVitaly</color> - For herculean translation efforts.
+<color_yellow>HuXTUS</color> - For a huge amount of amazing content.
+
+******************************************************************************
+
+<color_white>Main Developers (<color_cyan>0.C</color>):</color>
+<color_yellow>KevinGranade</color>, <color_yellow>Rivet-the-Zombie</color>, <color_yellow>KA101</color>, <color_yellow>BevapDin</color>, <color_yellow>Coolthulu</color>, <color_yellow>i2amroy</color>
+
+<color_white>Special thanks to (<color_cyan>0.C</color>):</color>
+<color_yellow>Narc</color> - For setting up the automatic Jenkins build-bot.
+<color_yellow>Acidia</color> - For wonderful NPC, Quest and Location contributions.
+<color_yellow>Wuzzy</color> and <color_yellow>VlasovVitaly</color> - For herculean translation efforts.
+<color_yellow>HuXTUS</color> - For a huge amount of amazing content.
+
+******************************************************************************
+
+<color_white>Main Developers (<color_cyan>0.B</color>):</color>
+<color_yellow>KevinGranade</color>, <color_yellow>Rivet-the-Zombie</color>, <color_yellow>KA101</color>, <color_yellow>BevapDin</color>
+
+<color_white>Special thanks to (<color_cyan>0.B</color>):</color>
+<color_yellow>Narc</color> - For setting up the automatic Jenkins build-bot.
+<color_yellow>Acidia</color> - For wonderful NPC, Quest and Location contributions.
+<color_yellow>Wuzzy</color> and <color_yellow>VlasovVitaly</color> - For herculean translation efforts.
+<color_yellow>i2amroy</color> - For several large infrastructural overhauls.
+<color_yellow>HuXTUS</color> - For a huge amount of amazing content.
+
+******************************************************************************
+
+<color_white>Main Developers (<color_cyan>0.A</color>):</color>
+<color_yellow>KevinGranade</color>, <color_yellow>i2amroy</color>, <color_yellow>Rivet-the-Zombie</color>, <color_yellow>KA101</color>, <color_yellow>BevapDin</color>
+
+<color_white>Special thanks to (<color_cyan>0.A</color>):</color>
+<color_yellow>TheDarklingWolf</color> - For creating Cataclysm:DDA as we know it.
+<color_yellow>Narc</color> - For setting up the automatic Jenkins build-bot.
+<color_yellow>BevapDin</color> - For tireless bugfixing efforts.
+<color_yellow>dwarfkoala</color> - For a plethora of bug triage.
+<color_yellow>Ill-kun</color> - For countless UI cleanups.
+
+******************************************************************************
+
+<color_white>Main Developers (<color_cyan>0.9</color>):</color>
+<color_yellow>KevinGranade</color>, <color_yellow>GalenEvil</color>, <color_yellow>i2amroy</color>, <color_yellow>AtomicDryad</color>, <color_yellow>Ianestrachan</color>
+
+<color_white>Special thanks to (<color_cyan>0.9</color>):</color>
+<color_yellow>TheDarklingWolf</color> - For creating Cataclysm:DDA as we know it.
+<color_yellow>Narc</color> - For setting up the automatic Jenkins build-bot.
+<color_yellow>yobbobanana</color> - For working as liaison between translators and GitHub.
+<color_yellow>Angela 'Rivet' Graves</color>, Constant Creator of Cataclysmic Content.
+
+******************************************************************************
+
+<color_white>Main Developers (<color_cyan>0.8</color>):</color>
+<color_yellow>Kevingranade</color>, <color_yellow>GalenEvil</color>, <color_yellow>i2amroy</color>, <color_yellow>AtomicDryad</color>, <color_yellow>Ozone</color>
+
+<color_white>Special thanks to (<color_cyan>0.8</color>):</color>
+<color_yellow>TheDarklingWolf</color> - For creating Cataclysm:DDA as we know it.
+<color_yellow>Narc</color> - For setting up the automatic Jenkins build-bot.
+<color_yellow>yobbobanana</color> - For working as liason between translators and GitHub.
+
+<color_white>Survivor Edition 1.0.0-rc.1 (2026-10-14)</color>
+Independent modified edition of CDDA 0.I, without upstream endorsement.
+The original authors and their open licenses remain credited above.
+Edition changes, source provenance and component notices: legal and README_EN.md.
+mpg123: Copyright (c) 1995-2020 by Michael Hipp and others,
+free software under the terms of the LGPL v2.1.
+Exact source and replaceable relinking materials accompany the release kit.
+Survivor-SFX: selected CC-Sounds recordings; individual authors and licenses:
+data/sound/Survivor-SFX/ATTRIBUTION.md. Collection: CC BY-SA 4.0.

@@ -1,0 +1,5 @@
+Roboto Medium 2.137: Copyright 2011 Google Inc. All Rights Reserved. Apache-2.0.
+Terminus (TTF) 4.49.3: Copyright (C) 2020 Dimitar Toshkov Zhekov; Copyright (C) 2023 Tilman Blumenbach. SIL OFL-1.1.
+VecTerminus12 1.0: Copyright (c) 2017 Abraham Lee; Reserved Font Name VecTerminus12. SIL OFL-1.1.
+Unifont12.0.01: Copyright (C) 1998-2019 Roman Czyborra, Paul Hardy, Qianqian Fang, Andrew Miller, Johnnie Weaver, David Corbett, et al. GPL-2.0-or-later with GNU font embedding exception.
+Map bitmap fonts: unchanged upstream files, repository license and contributor attribution.

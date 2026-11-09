@@ -1,0 +1,6 @@
+/mo/*
+!/mo/ru/
+/mo/ru/*
+!/mo/ru/LC_MESSAGES/
+/mo/ru/LC_MESSAGES/*
+!/mo/ru/LC_MESSAGES/INVALID_RAND.mo

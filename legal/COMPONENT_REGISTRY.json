@@ -1,0 +1,1304 @@
+{
+  "upstream_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+  "distribution_approved": false,
+  "program_license_resolution": "GPL3_ONLY_SCHEME_PREPARED_FINAL_APPLICABILITY_REVIEW_REQUIRED",
+  "program_license_scheme": "legal/PROGRAM_LICENSE_SCHEME_RU.md",
+  "program_license_scheme_en": "legal/PROGRAM_LICENSE_SCHEME_EN.md",
+  "intended_combined_program_license": "GPL-3.0-only",
+  "dependency_source_manifest": "assets/third-party-source/dependencies/MANIFEST.json",
+  "game_archive_corresponding_source": "legal/source/corresponding-source.zip",
+  "source_license": "CC-BY-SA-3.0",
+  "source_url": "https://github.com/CleverRaven/Cataclysm-DDA/tree/27939e29b8b4ddc081490d9f51de59a459c88df6",
+  "authors": "Whales and Cataclysm-DDA contributors; preserve full data/credits notices",
+  "tilesets": [
+    {
+      "path": "gfx/UltimateCataclysm",
+      "authors": "I-am-Erk and Ultica contributors",
+      "license": "CC-BY-SA-3.0",
+      "source_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "attribution": "gfx/UltimateCataclysm/tileset.txt; data/credits; upstream tileset contributor notices",
+      "source_url": "https://github.com/I-am-Erk/CDDA-Tilesets",
+      "changes": "None to upstream atlases",
+      "individual_notice_review": "UNKNOWN"
+    },
+    {
+      "path": "gfx/Larwick_Overmap",
+      "source_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Upstream LICENSE.txt and component notices, review pending",
+      "authors_and_notices": "gfx/Larwick_Overmap/tileset.txt",
+      "individual_notice_review": "UNKNOWN"
+    },
+    {
+      "path": "gfx/ASCIITileset",
+      "source_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Upstream LICENSE.txt and component notices, review pending",
+      "authors_and_notices": "gfx/ASCIITileset/tileset.txt",
+      "individual_notice_review": "UNKNOWN"
+    },
+    {
+      "path": "gfx/ASCII_Overmap",
+      "source_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Upstream LICENSE.txt and component notices, review pending",
+      "authors_and_notices": "gfx/ASCII_Overmap/tileset.txt",
+      "individual_notice_review": "UNKNOWN"
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "brotli",
+      "version": "1.1.0#1",
+      "license": "MIT",
+      "port_source": "git+https://github.com/Microsoft/vcpkg@4e5b5ae1ad26c80535c893cc0307121f0398549e",
+      "selected_license": "MIT",
+      "notice": "legal/component-notices/brotli/copyright.txt",
+      "notice_sha256": "3d180008e36922a4e8daec11c34c7af264fed5962d07924aea928c38e8663c94",
+      "role": "static runtime candidate",
+      "linkage": "static candidate",
+      "source_archives": [
+        "git+https://github.com/google/brotli@v1.1.0"
+      ],
+      "notice_present": true,
+      "relink_and_source_obligations": "REVIEW_REQUIRED",
+      "distribution_clearance": "UNKNOWN"
+    },
+    {
+      "name": "bzip2",
+      "version": "1.0.8#5",
+      "license": "bzip2-1.0.6",
+      "port_source": "git+https://github.com/Microsoft/vcpkg@92e9a8bbf1abbd89872b48ad82fcf75852de1006",
+      "selected_license": "bzip2-1.0.6",
+      "notice": "legal/component-notices/bzip2/copyright.txt",
+      "notice_sha256": "c6dbbf828498be844a89eaa3b84adbab3199e342eb5cb2ed2f0d4ba7ec0f38a3",
+      "role": "static runtime candidate",
+      "linkage": "static candidate",
+      "source_archives": [
+        "https://sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz"
+      ],
+      "notice_present": true,
+      "relink_and_source_obligations": "REVIEW_REQUIRED",
+      "distribution_clearance": "UNKNOWN"
+    },
+    {
+      "name": "freetype",
+      "version": "2.12.1#4",
+      "license": "(FTL OR GPL-2.0-or-later)",
+      "port_source": "git+https://github.com/Microsoft/vcpkg@4e52babe5d382c3f9cdb1b8037874d78eceb3512",
+      "selected_license": "FTL",
+      "notice": "legal/component-notices/freetype/copyright.txt",
+      "notice_sha256": "6d74c2712958a5dd73ab66b699021a19dd0736df54af46e7d174156505123b46",
+      "role": "static runtime candidate",
+      "linkage": "static candidate",
+      "source_archives": [
+        "https://sourceforge.net/projects/freetype/freetype2/files/${FT_VERSION}/freetype-${FT_VERSION}.tar.xz"
+      ],
+      "notice_present": true,
+      "relink_and_source_obligations": "REVIEW_REQUIRED",
+      "distribution_clearance": "UNKNOWN"
+    },
+    {
+      "name": "libflac",
+      "version": "1.4.3",
+      "license": "BSD-3-Clause",
+      "port_source": "git+https://github.com/Microsoft/vcpkg@b03480bcc5f27cdc9a5f51fef012f880f1b0bf8d",
+      "selected_license": "BSD-3-Clause",
+      "notice": "legal/component-notices/libflac/copyright.txt",
+      "notice_sha256": "12600ea1a7affcbf469bd0d8b2cd725e4167114a2ee834b88f5d2857bfd7ddbf",
+      "role": "static runtime candidate",
+      "linkage": "static candidate",
+      "source_archives": [
+        "git+https://github.com/xiph/flac@1.4.3"
+      ],
+      "notice_present": true,
+      "relink_and_source_obligations": "REVIEW_REQUIRED",
+      "distribution_clearance": "UNKNOWN"
+    },
+    {
+      "name": "libjpeg-turbo",
+      "version": "3.0.0#2",
+      "license": "BSD-3-Clause",
+      "port_source": "git+https://github.com/Microsoft/vcpkg@4510832adaa3f5f415a59d26f5520ca250a8ff77",
+      "selected_license": "BSD-3-Clause",
+      "notice": "legal/component-notices/libjpeg-turbo/copyright.txt",
+      "notice_sha256": "60c756742db3ad1913304e8b13f0e86e22e51adb50cc0b3333c163f7e45ceec1",
+      "role": "static runtime candidate",
+      "linkage": "static candidate",
+      "source_archives": [
+        "git+https://github.com/libjpeg-turbo/libjpeg-turbo@3.0.0"
+      ],
+      "notice_present": true,
+      "relink_and_source_obligations": "REVIEW_REQUIRED",
+      "distribution_clearance": "UNKNOWN"
+    },
+    {
+      "name": "libmodplug",
+      "version": "0.8.9.0#10",
+      "license": "LicenseRef-vcpkg-null",
+      "port_source": "git+https://github.com/Microsoft/vcpkg@605d260810f9d1a489af7fb484d509581b39763d",
+      "selected_license": "LicenseRef-vcpkg-null",
+      "notice": "legal/component-notices/libmodplug/copyright.txt",
+      "notice_sha256": "49942e7b3b175f549e751feb08b5270ca6f6c5fb7a1be9f9517db275ec32c92e",
+      "role": "static runtime candidate",
+      "linkage": "static candidate",
+      "source_archives": [
+        "git+https://github.com/Konstanty/libmodplug@${MODPLUG_HASH}"
+      ],
+      "notice_present": true,
+      "relink_and_source_obligations": "REVIEW_REQUIRED",
+      "distribution_clearance": "UNKNOWN"
+    },
+    {
+      "name": "libogg",
+      "version": "1.3.5#1",
+      "license": "BSD-3-Clause",
+      "port_source": "git+https://github.com/Microsoft/vcpkg@98e27727c32704393494d32615c25b7b16eb3067",
+      "selected_license": "BSD-3-Clause",
+      "notice": "legal/component-notices/libogg/copyright.txt",
+      "notice_sha256": "d2ab5758336489da61c12cc5bb757da5339c4ae9001f9bb0562b4370249af814",
+      "role": "static runtime candidate",
+      "linkage": "static candidate",
+      "source_archives": [
+        "git+https://gitlab.xiph.org/xiph/ogg@v1.3.5"
+      ],
+      "notice_present": true,
+      "relink_and_source_obligations": "REVIEW_REQUIRED",
+      "distribution_clearance": "UNKNOWN"
+    },
+    {
+      "name": "libpng",
+      "version": "1.6.39#1",
+      "license": "libpng-2.0",
+      "port_source": "git+https://github.com/Microsoft/vcpkg@af144fe56e6e4c08cd8089d2e1dd46bae60a5062",
+      "selected_license": "libpng-2.0",
+      "notice": "legal/component-notices/libpng/copyright.txt",
+      "notice_sha256": "dfe5a536b0e5a531f844fb9c101a3089aca60772a503893b8e15f9457e369960",
+      "role": "static runtime candidate",
+      "linkage": "static candidate",
+      "source_archives": [
+        "git+https://github.com/glennrp/libpng@v1.6.39",
+        "https://downloads.sourceforge.net/project/libpng-apng/libpng16/1.6.39/${LIBPNG_APNG_PATCH_NAME}.gz"
+      ],
+      "notice_present": true,
+      "relink_and_source_obligations": "REVIEW_REQUIRED",
+      "distribution_clearance": "UNKNOWN"
+    },
+    {
+      "name": "libvorbis",
+      "version": "1.3.7#2",
+      "license": "BSD-3-Clause",
+      "port_source": "git+https://github.com/Microsoft/vcpkg@c4c646a26ce3e6ad63992d3e4a55cb185159b23c",
+      "selected_license": "BSD-3-Clause",
+      "notice": "legal/component-notices/libvorbis/copyright.txt",
+      "notice_sha256": "ec1815db59fcd302846df949d7424876cb2e2dc5ed1606c5fb0b36787b1cf43a",
+      "role": "static runtime candidate",
+      "linkage": "static candidate",
+      "source_archives": [
+        "git+https://github.com/xiph/vorbis@v1.3.7"
+      ],
+      "notice_present": true,
+      "relink_and_source_obligations": "REVIEW_REQUIRED",
+      "distribution_clearance": "UNKNOWN"
+    },
+    {
+      "name": "mpg123",
+      "version": "1.31.3#2",
+      "license": "LGPL-2.1-or-later",
+      "port_source": "git+https://github.com/Microsoft/vcpkg@58fbb0bf0ec6307689125ef1ba71112b670a42a9",
+      "selected_license": "LGPL-2.1-or-later",
+      "notice": "legal/component-notices/mpg123/copyright.txt",
+      "notice_sha256": "c22482728a634a8dfdb4ff72a96d4c1ed64cd8f3e79335c401751ac591609366",
+      "role": "static runtime candidate",
+      "linkage": "static candidate",
+      "source_archives": [
+        "https://sourceforge.net/projects/mpg123/mpg123/files/1.31.3/mpg123-1.31.3.tar.bz2"
+      ],
+      "notice_present": true,
+      "relink_and_source_obligations": "EXACT_SOURCE_AND_RELINK_MATERIALS_INCLUDED; ORIGINAL_LIBRARY_RELINK_JSONVERIFY_PASS; MODIFIED_LIBRARY_REBUILD_UNKNOWN",
+      "distribution_clearance": "UNKNOWN"
+    },
+    {
+      "name": "pdcurses",
+      "version": "3.9#6",
+      "license": "LicenseRef-vcpkg-null",
+      "port_source": "git+https://github.com/Microsoft/vcpkg@61d47c082b38bc7c50c5b81d730c698dd4cea04f",
+      "selected_license": "LicenseRef-vcpkg-null",
+      "notice": "legal/component-notices/pdcurses/copyright.txt",
+      "notice_sha256": "725d2c902634c75b77f947b7662608497b86144f81b8f303565601fc8596b9b7",
+      "role": "static runtime candidate",
+      "linkage": "static candidate",
+      "source_archives": [
+        "git+https://github.com/wmcbrine/PDCurses@3.9"
+      ],
+      "notice_present": true,
+      "relink_and_source_obligations": "REVIEW_REQUIRED",
+      "distribution_clearance": "UNKNOWN"
+    },
+    {
+      "name": "sdl2",
+      "version": "2.28.4",
+      "license": "Zlib",
+      "port_source": "git+https://github.com/Microsoft/vcpkg@289db88c23499b30e20bf972b2e1e68c093e5dea",
+      "selected_license": "Zlib",
+      "notice": "legal/component-notices/sdl2/copyright.txt",
+      "notice_sha256": "9928507f684c1965d07f2b6ef4b4723d5efc2f6b4ab731f743a413c51c319927",
+      "role": "static runtime candidate",
+      "linkage": "static candidate",
+      "source_archives": [
+        "git+https://github.com/libsdl-org/SDL@release-2.28.4"
+      ],
+      "notice_present": true,
+      "relink_and_source_obligations": "REVIEW_REQUIRED",
+      "distribution_clearance": "UNKNOWN"
+    },
+    {
+      "name": "sdl2-image",
+      "version": "2.6.3",
+      "license": "Zlib",
+      "port_source": "git+https://github.com/Microsoft/vcpkg@cea786776b9bf5d0af613153194d58fa74aaf011",
+      "selected_license": "Zlib",
+      "notice": "legal/component-notices/sdl2-image/copyright.txt",
+      "notice_sha256": "1852c8549e3d154687197d46abababd3e8faae035f19991b2ca850fa3a43ad57",
+      "role": "static runtime candidate",
+      "linkage": "static candidate",
+      "source_archives": [
+        "git+https://github.com/libsdl-org/SDL_image@release-2.6.3"
+      ],
+      "notice_present": true,
+      "relink_and_source_obligations": "REVIEW_REQUIRED",
+      "distribution_clearance": "UNKNOWN"
+    },
+    {
+      "name": "sdl2-mixer",
+      "version": "2.6.3#1",
+      "license": "Zlib",
+      "port_source": "git+https://github.com/Microsoft/vcpkg@4c169dd178363fec7d46194a45dc250b604b1f2e",
+      "selected_license": "Zlib",
+      "notice": "legal/component-notices/sdl2-mixer/copyright.txt",
+      "notice_sha256": "1852c8549e3d154687197d46abababd3e8faae035f19991b2ca850fa3a43ad57",
+      "role": "static runtime candidate",
+      "linkage": "static candidate",
+      "source_archives": [
+        "git+https://github.com/libsdl-org/SDL_mixer@release-2.6.3"
+      ],
+      "notice_present": true,
+      "relink_and_source_obligations": "REVIEW_REQUIRED",
+      "distribution_clearance": "UNKNOWN"
+    },
+    {
+      "name": "sdl2-ttf",
+      "version": "2.20.2",
+      "license": "Zlib",
+      "port_source": "git+https://github.com/Microsoft/vcpkg@8ea231424114356e940ea3ac40fdc7da27ea95ad",
+      "selected_license": "Zlib",
+      "notice": "legal/component-notices/sdl2-ttf/copyright.txt",
+      "notice_sha256": "1852c8549e3d154687197d46abababd3e8faae035f19991b2ca850fa3a43ad57",
+      "role": "static runtime candidate",
+      "linkage": "static candidate",
+      "source_archives": [
+        "git+https://github.com/libsdl-org/SDL_ttf@release-2.20.2"
+      ],
+      "notice_present": true,
+      "relink_and_source_obligations": "REVIEW_REQUIRED",
+      "distribution_clearance": "UNKNOWN"
+    },
+    {
+      "name": "vcpkg-cmake",
+      "version": "2023-05-04",
+      "license": "MIT",
+      "port_source": "git+https://github.com/Microsoft/vcpkg@88a7058fc7fa73a9c4c99cfcae9d79e2abf87a5a",
+      "selected_license": "MIT",
+      "notice": "legal/component-notices/vcpkg-cmake/copyright.txt",
+      "notice_sha256": "1ee376fc340e0aa6ad6a3581c94126e741468705096ac92263048a21daa86460",
+      "role": "build only, excluded from game",
+      "linkage": null,
+      "source_archives": [],
+      "notice_present": true,
+      "relink_and_source_obligations": "REVIEW_REQUIRED",
+      "distribution_clearance": "UNKNOWN"
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "version": "2022-02-06#1",
+      "license": "MIT",
+      "port_source": "git+https://github.com/Microsoft/vcpkg@8d54cc4f487d51b655abec5f9c9c3f86ca83311f",
+      "selected_license": "MIT",
+      "notice": "legal/component-notices/vcpkg-cmake-config/copyright.txt",
+      "notice_sha256": "04b60f99a43bfd7fefdc8364b24aac704a2160cef969b75ba6a38b62dc4c4b70",
+      "role": "build only, excluded from game",
+      "linkage": null,
+      "source_archives": [],
+      "notice_present": true,
+      "relink_and_source_obligations": "REVIEW_REQUIRED",
+      "distribution_clearance": "UNKNOWN"
+    },
+    {
+      "name": "yasm",
+      "version": "1.3.0#5",
+      "license": "(BSD-2-Clause OR BSD-3-Clause OR Artistic-1.0 OR GPL-2.0-only OR LGPL-2.0-only)",
+      "port_source": "git+https://github.com/Microsoft/vcpkg@e9ad958de17f5b7661720dc322cff96b2dff8355",
+      "selected_license": "(BSD-2-Clause OR BSD-3-Clause OR Artistic-1.0 OR GPL-2.0-only OR LGPL-2.0-only)",
+      "notice": "legal/component-notices/yasm/copyright.txt",
+      "notice_sha256": "795f8d76eade6130129b680ac72ea81cb3e143467a65ea1f5f64946151d7fa20",
+      "role": "build only, excluded from game",
+      "linkage": null,
+      "source_archives": [
+        "git+https://github.com/yasm/yasm@009450c7ad4d425fa5a10ac4bd6efbd25248d823"
+      ],
+      "notice_present": true,
+      "relink_and_source_obligations": "EXACT_SOURCE_AND_RELINK_MATERIALS_INCLUDED; ORIGINAL_LIBRARY_RELINK_JSONVERIFY_PASS; MODIFIED_LIBRARY_REBUILD_UNKNOWN",
+      "distribution_clearance": "UNKNOWN"
+    },
+    {
+      "name": "yasm-tool-helper",
+      "version": "2020-03-11#1",
+      "license": "NOASSERTION",
+      "port_source": "git+https://github.com/Microsoft/vcpkg@0a2dfb294bebae79c48cc710756756164175be1d",
+      "selected_license": "NOASSERTION",
+      "notice": null,
+      "notice_sha256": null,
+      "role": "build only, excluded from game",
+      "linkage": null,
+      "source_archives": [],
+      "notice_present": false,
+      "relink_and_source_obligations": "REVIEW_REQUIRED",
+      "distribution_clearance": "UNKNOWN"
+    },
+    {
+      "name": "zlib",
+      "version": "1.3",
+      "license": "Zlib",
+      "port_source": "git+https://github.com/Microsoft/vcpkg@5ac18c6e6e3e2bf5a9e3d0bc8a845f198e4c4e05",
+      "selected_license": "Zlib",
+      "notice": "legal/component-notices/zlib/copyright.txt",
+      "notice_sha256": "845efc77857d485d91fb3e0b884aaa929368c717ae8186b66fe1ed2495753243",
+      "role": "static runtime candidate",
+      "linkage": "static candidate",
+      "source_archives": [
+        "git+https://github.com/madler/zlib@v1.3"
+      ],
+      "notice_present": true,
+      "relink_and_source_obligations": "REVIEW_REQUIRED",
+      "distribution_clearance": "UNKNOWN"
+    }
+  ],
+  "mods": [
+    {
+      "id": "aftershock",
+      "name": "Aftershock",
+      "authors": [
+        "Esther",
+        "Coolthulu",
+        "Maleclypse",
+        "Candlebury",
+        "Mom_Bun"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/Aftershock/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": true,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-f65571d53d/runtime.json"
+    },
+    {
+      "id": "aftershock_exoplanet",
+      "name": "Aftershock: Exoplanet",
+      "authors": [
+        "Maleclypse",
+        "Candlebury",
+        "Mom_Bun"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/aftershock_exoplanet/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": false,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-3146e2ad81/runtime.json"
+    },
+    {
+      "id": "alt_map_key",
+      "name": "Alternative Map Key",
+      "authors": [
+        "Sunshine",
+        "thaelina"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/alt_map_key/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": false,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-3146e2ad81/runtime.json"
+    },
+    {
+      "id": "backrooms",
+      "name": "The Backrooms",
+      "authors": [
+        "TGW"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/Backrooms/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": false,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-3146e2ad81/runtime.json"
+    },
+    {
+      "id": "bombastic_perks",
+      "name": "Bombastic Perks",
+      "authors": [
+        "bombasticSlacks"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/BombasticPerks/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": false,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-3146e2ad81/runtime.json"
+    },
+    {
+      "id": "cbm_slots",
+      "name": "Bionic Slots",
+      "authors": [
+        "anothersimulacrum"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/cbm_slots/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": false,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-3146e2ad81/runtime.json"
+    },
+    {
+      "id": "classic_zombies",
+      "name": "Dark Days of the Dead",
+      "authors": [
+        "Hirmuolio",
+        "I-am-Erk"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/classic_zombies/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": false,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-3146e2ad81/runtime.json"
+    },
+    {
+      "id": "crazy_cataclysm",
+      "name": "Crazy Cataclysm",
+      "authors": [
+        "Kevin"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/CrazyCataclysm/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": false,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-3146e2ad81/runtime.json"
+    },
+    {
+      "id": "dda",
+      "name": "Dark Days Ahead",
+      "authors": [],
+      "dependencies": [],
+      "source": "data/mods/dda/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": false,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-3146e2ad81/runtime.json"
+    },
+    {
+      "id": "dda_tutorial",
+      "name": "Tutorial",
+      "authors": [],
+      "dependencies": [],
+      "source": "data/mods/dda_tutorial/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": true,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-f65571d53d/runtime.json"
+    },
+    {
+      "id": "deadly_bites",
+      "name": "Deadly Zombie Virus",
+      "authors": [
+        "dseguin"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/deadly_bites/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": false,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-3146e2ad81/runtime.json"
+    },
+    {
+      "id": "defense_mode",
+      "name": "Defense Mode",
+      "authors": [
+        "Whales",
+        "MNG-cataclysm"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/Defense_Mode/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": true,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-f65571d53d/runtime.json"
+    },
+    {
+      "id": "desertpack",
+      "name": "Desert Region",
+      "authors": [
+        "Dpwb",
+        "DracoGriffin"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/desert_region/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": false,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-3146e2ad81/runtime.json"
+    },
+    {
+      "id": "DinoMod",
+      "name": "DinoMod",
+      "authors": [
+        "ephemeralstoryteller",
+        "damien",
+        "LyleSy"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/DinoMod/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": false,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-3146e2ad81/runtime.json"
+    },
+    {
+      "id": "extra_mut_scens",
+      "name": "Extra Mutated Scenarios",
+      "authors": [
+        "Saicchi"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/extra_mut_scen/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": false,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-3146e2ad81/runtime.json"
+    },
+    {
+      "id": "generic_guns",
+      "name": "Generic Guns",
+      "authors": [
+        "Tonkatsu"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/Generic_Guns/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": false,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-3146e2ad81/runtime.json"
+    },
+    {
+      "id": "innawood",
+      "name": "Innawood",
+      "authors": [
+        "Lightwave"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/innawood/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": false,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-3146e2ad81/runtime.json"
+    },
+    {
+      "id": "Isolation_Protocol",
+      "name": "Isolation Protocol",
+      "authors": [
+        "Candlebury"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/Isolation-Protocol/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": false,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-3146e2ad81/runtime.json"
+    },
+    {
+      "id": "limb_wip",
+      "name": "Work in Progress Limb Stuff",
+      "authors": [
+        "Venera3"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/Limb_WIP/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": false,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-3146e2ad81/runtime.json"
+    },
+    {
+      "id": "MA",
+      "name": "Massachusetts",
+      "authors": [
+        "ZhilkinSerg"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/MA/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": false,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-3146e2ad81/runtime.json"
+    },
+    {
+      "id": "magiclysm",
+      "name": "Magiclysm",
+      "authors": [
+        "KorGgenT",
+        "GuardianDll",
+        "Aptronym",
+        "LaVeyanFiend"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/Magiclysm/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": false,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-3146e2ad81/runtime.json"
+    },
+    {
+      "id": "megafauna",
+      "name": "Megafauna",
+      "authors": [
+        "merrygin"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/Megafauna/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": false,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-3146e2ad81/runtime.json"
+    },
+    {
+      "id": "mindovermatter",
+      "name": "Mind Over Matter",
+      "authors": [
+        "StandingStorm"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/MindOverMatter/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": false,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-3146e2ad81/runtime.json"
+    },
+    {
+      "id": "MMA",
+      "name": "Mythical Martial Arts",
+      "authors": [
+        "Photoloss"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/MMA/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": false,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-3146e2ad81/runtime.json"
+    },
+    {
+      "id": "my_sweet_cataclysm",
+      "name": "My Sweet Cataclysm",
+      "authors": [
+        "Fris0uman"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/My_Sweet_Cataclysm/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": false,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-3146e2ad81/runtime.json"
+    },
+    {
+      "id": "Mythos-Creatures",
+      "name": "Mythos Mod - Mythos Creatures Only",
+      "authors": [
+        "mythosmod"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/Mythos-Creatures/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": true,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-f65571d53d/runtime.json"
+    },
+    {
+      "id": "no_hope",
+      "name": "No Hope",
+      "authors": [
+        "Night_Pryanik"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/No_Hope/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": false,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-3146e2ad81/runtime.json"
+    },
+    {
+      "id": "no_npc_food",
+      "name": "Disable NPC Needs",
+      "authors": [
+        "Coolthulhu"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/No_NPC_Food/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": false,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-3146e2ad81/runtime.json"
+    },
+    {
+      "id": "Only_Wildlife",
+      "name": "No Monsters",
+      "authors": [
+        "Kodi Arfer"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/Only_Wildlife/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": false,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-3146e2ad81/runtime.json"
+    },
+    {
+      "id": "package_bionic_professions",
+      "name": "Bionic Professions",
+      "authors": [
+        "Erk/Everyone"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/package_bionic_professions/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": false,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-3146e2ad81/runtime.json"
+    },
+    {
+      "id": "perk_melee_system",
+      "name": "Martial Mastery",
+      "authors": [
+        "John-Candlebury"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/Perk_melee/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": false,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-3146e2ad81/runtime.json"
+    },
+    {
+      "id": "personal_portal_storms",
+      "name": "Portal Storms Ignore NPCs",
+      "authors": [
+        "BombasticSlacks"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/Personal_Portal_Storms/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": false,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-3146e2ad81/runtime.json"
+    },
+    {
+      "id": "railroads",
+      "name": "Railroads",
+      "authors": [
+        "ZhilkinSerg"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/railroads/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": false,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-3146e2ad81/runtime.json"
+    },
+    {
+      "id": "Rummaging",
+      "name": "Rummaging",
+      "authors": [
+        "Aunt_Su | 苏大妈#7831"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/Rummaging/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": true,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-f65571d53d/runtime.json"
+    },
+    {
+      "id": "ruralbiome",
+      "name": "Rural-Only Mapgen",
+      "authors": [
+        "I-am-Erk"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/rural_biome/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": true,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-f65571d53d/runtime.json"
+    },
+    {
+      "id": "skyisland",
+      "name": "Sky Island",
+      "authors": [
+        "TGW"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/Sky_Island/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": false,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-3146e2ad81/runtime.json"
+    },
+    {
+      "id": "standard_combat_test",
+      "name": "Standard combat test suite",
+      "authors": [
+        "Venera3"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/Standard_Combat_Tests/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": false,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-3146e2ad81/runtime.json"
+    },
+    {
+      "id": "Tamable_Wildlife",
+      "name": "Tamable Wildlife",
+      "authors": [
+        "Termineitor244"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/Tamable_Wildlife/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": false,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-3146e2ad81/runtime.json"
+    },
+    {
+      "id": "test_data",
+      "name": "TESTING DATA",
+      "authors": [],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/TEST_DATA/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": false,
+      "obsolete": true,
+      "exclusion_reason": "Upstream automated-test data; retain only in source/QA",
+      "data_loading_qa": "UNKNOWN",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-3146e2ad81/runtime.json"
+    },
+    {
+      "id": "translate_dialogue",
+      "name": "Translate Complex Dialogue",
+      "authors": [
+        "I-am-Erk"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/translate-dialogue/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": false,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-3146e2ad81/runtime.json"
+    },
+    {
+      "id": "tropicata",
+      "name": "TropiCataclysm",
+      "authors": [
+        "Xaritscin"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/TropiCataclysm/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": false,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-3146e2ad81/runtime.json"
+    },
+    {
+      "id": "xedra_evolved",
+      "name": "Xedra Evolved",
+      "authors": [
+        "Maleclypse",
+        "Guardiandll",
+        "StandingStorm"
+      ],
+      "dependencies": [
+        "dda"
+      ],
+      "source": "data/mods/Xedra_Evolved/modinfo.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": false,
+      "exclusion_reason": null,
+      "data_loading_qa": "PASS",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-3146e2ad81/runtime.json"
+    },
+    {
+      "id": "dev:default",
+      "name": "default",
+      "authors": [],
+      "dependencies": [
+        "dda",
+        "no_npc_food",
+        "personal_portal_storms"
+      ],
+      "source": "data/mods/default.json",
+      "version_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+      "license_basis": "Repository LICENSE.txt, unless component-specific notices override",
+      "included_candidate": true,
+      "obsolete": true,
+      "exclusion_reason": null,
+      "data_loading_qa": "UNKNOWN",
+      "gameplay_qa": "UNKNOWN",
+      "qa_evidence": "audits/edition/runtime-3146e2ad81/runtime.json"
+    }
+  ],
+  "mod_dependency_reference_check": "PASS",
+  "mod_dependency_errors": [],
+  "sound_candidate": "audits/audio/candidate-soundpack.json",
+  "sound_distribution": {
+    "path": "data/sound/Survivor-SFX",
+    "recordings": 352,
+    "source_commit": "cff999de7bf64f68c381a966d0267f88a3f661a5",
+    "attribution": "data/sound/Survivor-SFX/ATTRIBUTION.md",
+    "decode": "PASS",
+    "audible_playback": "UNKNOWN",
+    "primary_notice_and_compatibility_review": "UNKNOWN"
+  },
+  "relink_evidence": "audits/edition/relink-icon-build.log; relink-icon-jsonverify-exit.txt; source/relink-kit.zip",
+  "artwork_provenance": "assets/generated/PROVENANCE.json",
+  "icon_provenance": "assets/generated/minimal-icon-provenance.json",
+  "store_background_provenance": "assets/generated/submission-background-provenance.json",
+  "fonts": {
+    "notice": "LICENSE.txt and component-notices/embedded/FONT_COPYRIGHTS.txt",
+    "unifont_notice_source": "https://unifoundry.com/LICENSE.txt",
+    "unifont_version": "12.0.01",
+    "unifont_license": "GPL-2.0-or-later WITH Font-exception-2.0 (not OFL for this binary)",
+    "unifont_matching_source": "legal/font-source/UNIFONT_PROVENANCE.json",
+    "font_data_unmodified": true,
+    "license_review": "Exact embedded notices and matching Unifont source verified; global clearance not claimed"
+  },
+  "embedded_notices": "legal/component-notices/embedded",
+  "embedded_components": [
+    {
+      "name": "Dear ImGui",
+      "license": "MIT",
+      "notice": "embedded/imgui-MIT.txt"
+    },
+    {
+      "name": "ImTui",
+      "license": "MIT",
+      "notice": "embedded/imtui-MIT.txt"
+    },
+    {
+      "name": "Optional Lunasvg adapter in ImGui FreeType source",
+      "license": "CECILL-C",
+      "compiled": false,
+      "notice": "embedded/lunasvg-source-license.json",
+      "full_license": "legal/license-texts/CECILL-C-1.0.txt"
+    },
+    {
+      "name": "FlatBuffers",
+      "license": "Apache-2.0",
+      "notice": "embedded/flatbuffers-Apache-2.0.txt"
+    },
+    {
+      "name": "Zstandard",
+      "selected_license": "BSD-3-Clause",
+      "notice": "embedded/zstd-BSD.txt"
+    },
+    {
+      "name": "stb",
+      "selected_license": "MIT",
+      "notice": "embedded/imstb_*"
+    },
+    {
+      "name": "ProggyClean",
+      "license": "MIT",
+      "notice": "embedded/ProggyClean-MIT.txt"
+    },
+    {
+      "name": "PLF list/colony",
+      "license": "Zlib",
+      "notice": "embedded/*-zlib.txt"
+    },
+    {
+      "name": "Unicode pinyin data",
+      "license": "Unicode-DFS-2016",
+      "notice": "embedded/unicode-pinyin.txt"
+    },
+    {
+      "name": "Eliot Eshelman simplexnoise",
+      "license": "GPL-3.0-or-later",
+      "source": "src/simplexnoise.cpp; src/simplexnoise.h",
+      "status": "GPL3_ONLY_COMPATIBILITY_SCHEME_PREPARED_REVIEW_REQUIRED"
+    }
+  ],
+  "audit": "legal/LICENSE_AUDIT_RU.md",
+  "in_game_attribution": [
+    "data/credits/ru.credits",
+    "data/credits/en.credits"
+  ],
+  "game_archive_lgpl_materials": "legal/source/relink-kit.zip",
+  "blockers": [
+    "Review applicability of prepared BY-SA3 to BY-SA4 to GPL3-only adaptation scheme and actual VK Play distribution terms",
+    "Clean rebuild from packaged corresponding source is UNKNOWN; exact dependency archives/patches verified",
+    "Final legal evaluation of static LGPL obligations, including modified-library replacement workflow",
+    "Finish resource attribution, font licensing, compatibility and primary source-notice review",
+    "Optional-mod data loading passed; actual gameplay and visual QA remain UNKNOWN",
+    "Publisher/legal documents and artwork clearance remain pending"
+  ]
+}

@@ -1,0 +1,277 @@
+Package: pdcurses
+Version: 3.9
+Port-Version: 6
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: c0bd3002073a651934fadc66c2a3a1189fc51b62cf03c401ebfccd7354c0fd62
+Description: Public Domain Curses - a curses library for environments that don't fit the termcap/terminfo model.
+Status: install ok installed
+
+Package: vcpkg-cmake-config
+Version: 2022-02-06
+Port-Version: 1
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: 419024063c4d4ac0f8409c13bf5fa0be785b4d98b7d2a5cea212f64656afe3f3
+Status: install ok installed
+
+Package: vcpkg-cmake
+Version: 2023-05-04
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: d3960db40b7c9b2f77ae1d29d63f10ce4f8317cea9ef4f4412d646b81f04da75
+Status: install ok installed
+
+Package: sdl2
+Version: 2.28.4
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: fd0805cecb9c92f0d425fbefdd4430cb054f70e1e6e9bd464873a3f7f6fd692c
+Description: Simple DirectMedia Layer is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D.
+Default-Features: base
+Status: install ok installed
+
+Package: sdl2
+Feature: base
+Architecture: x64-windows-static
+Multi-Arch: same
+Description: Base functionality for SDL
+Status: install ok installed
+
+Package: libjpeg-turbo
+Version: 3.0.0
+Port-Version: 2
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: 0d214b0f0ebee794064011b436f81548780d87da38c88b077fea92b23ea052ba
+Description: libjpeg-turbo is a JPEG image codec that uses SIMD instructions (MMX, SSE2, NEON, AltiVec) to accelerate baseline JPEG compression and decompression on x86, x86-64, ARM, and PowerPC systems.
+Status: install ok installed
+
+Package: zlib
+Version: 1.3
+Depends: vcpkg-cmake
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: d89707128401634e0ee3fad95b836d8ddbccdc6c9d535f9528925112373ef858
+Description: A compression library
+Status: install ok installed
+
+Package: libpng
+Version: 1.6.39
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config, zlib
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: 84889d4ae78b4198ef885b5873c26ca931052432468a86fcddbd32de25c362f0
+Description: libpng is a library implementing an interface for reading and writing PNG (Portable Network Graphics) format files
+Status: install ok installed
+
+Package: sdl2-image
+Version: 2.6.3
+Depends: libpng, sdl2, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: 6dbefa246f574cc75e53df17d6a25736fd40f360ca7882987d4e82a9e32b940a
+Description: SDL_image is an image file loading library. It loads images as SDL surfaces and textures, and supports the following formats: BMP, GIF, JPEG, LBM, PCX, PNG, PNM, TGA, TIFF, WEBP, XCF, XPM, XV
+Status: install ok installed
+
+Package: sdl2-image
+Feature: libjpeg-turbo
+Depends: libjpeg-turbo
+Architecture: x64-windows-static
+Multi-Arch: same
+Description: Support for JPEG image format
+Status: install ok installed
+
+Package: yasm
+Version: 1.3.0
+Port-Version: 5
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: a3bf3dcfab8498c837cb03abd15ed0e9bba1dd2cc86019eec6a0c1b13a0a4ba1
+Description: Yasm is a complete rewrite of the NASM assembler under the new BSD License.
+Status: install ok installed
+
+Package: yasm
+Feature: tools
+Architecture: x64-windows-static
+Multi-Arch: same
+Description: Build yasm tools
+Status: install ok installed
+
+Package: yasm-tool-helper
+Version: 2020-03-11
+Port-Version: 1
+Depends: yasm
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: 9c5dce49e7d27fa9ae0c9e6d5ee50a77fdbaabf94844f7aae85ea2a0c1186d9d
+Description: Backfill that depends on yasm:host
+Status: install ok installed
+
+Package: mpg123
+Version: 1.31.3
+Port-Version: 2
+Depends: vcpkg-cmake, vcpkg-cmake-config, yasm-tool-helper
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: 7ba772b38e11ba61c6f2525864b9ec0a627996d8f95e8751ea49ed4c8db4108c
+Description: mpg123 is a real time MPEG 1.0/2.0/2.5 audio player/decoder for layers 1, 2 and 3 (MPEG 1.0 layer 3 also known as MP3).
+Status: install ok installed
+
+Package: libmodplug
+Version: 0.8.9.0
+Port-Version: 10
+Depends: vcpkg-cmake
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: 827a88c2a7c68d0325c63e692c2f2c81b01323f04a95a1354b78af39bf9148bc
+Description: The ModPlug mod file playing library.
+Status: install ok installed
+
+Package: libogg
+Version: 1.3.5
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: 4d800e819bcaf7f01ed8b4a33041707707f97bd4969480bd67942ab564fdb491
+Description: Ogg is a multimedia container format, and the native file and stream format for the Xiph.org multimedia codecs.
+Status: install ok installed
+
+Package: libflac
+Version: 1.4.3
+Depends: libogg, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: 47db16bec42918b996adae9268a58695ad11f42b07967c29a6bc9e40901bd11f
+Description: Library for manipulating FLAC files
+Status: install ok installed
+
+Package: libvorbis
+Version: 1.3.7
+Port-Version: 2
+Depends: libogg, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: 392a4a936f594bc153acf804717a33d6b602491047c0386aacb17089c7e484ee
+Description: Ogg Vorbis is a fully open, non-proprietary, patent-and-royalty-free, general-purpose compressed audio format
+Status: install ok installed
+
+Package: sdl2-mixer
+Version: 2.6.3
+Port-Version: 1
+Depends: libvorbis, sdl2, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: 00d9a952a99d3bfa1f2b992b261aaa0c643b66acb438863f94b4cbe82598c5ac
+Description: Multi-channel audio mixer library for SDL.
+Status: install ok installed
+
+Package: sdl2-mixer
+Feature: libflac
+Depends: libflac
+Architecture: x64-windows-static
+Multi-Arch: same
+Description: Use libflac to play FLAC audio format.
+Status: install ok installed
+
+Package: sdl2-mixer
+Feature: libmodplug
+Depends: libmodplug
+Architecture: x64-windows-static
+Multi-Arch: same
+Description: Use libmodplug to play MOD audio format.
+Status: install ok installed
+
+Package: sdl2-mixer
+Feature: mpg123
+Depends: mpg123
+Architecture: x64-windows-static
+Multi-Arch: same
+Description: Use mpg123 to play MP3 audio format.
+Status: install ok installed
+
+Package: bzip2
+Version: 1.0.8
+Port-Version: 5
+Depends: vcpkg-cmake
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: 712f87cd3b56259fcfed43131b62ac8fff01a60d452a7336875bca7a3b225035
+Description: bzip2 is a freely available, patent free, high-quality data compressor. It typically compresses files to within 10% to 15% of the best available techniques (the PPM family of statistical compressors), whilst being around twice as fast at compression and six times faster at decompression.
+Default-Features: tool
+Status: install ok installed
+
+Package: bzip2
+Feature: tool
+Architecture: x64-windows-static
+Multi-Arch: same
+Description: Builds bzip2 executable
+Status: install ok installed
+
+Package: brotli
+Version: 1.1.0
+Port-Version: 1
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: 31badedaa64beb554986ef5dc0c87c4993bdfc8fd50b4a09b7d51a2c1105d350
+Description: a generic-purpose lossless compression algorithm that compresses data using a combination of a modern variant of the LZ77 algorithm, Huffman coding and 2nd order context modeling.
+Status: install ok installed
+
+Package: freetype
+Version: 2.12.1
+Port-Version: 4
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: fc30a0e57a5ac58a343d59d6231490312af546afb1371a173af7fe2664bc7844
+Description: A library to render fonts.
+Default-Features: brotli, bzip2, png, zlib
+Status: install ok installed
+
+Package: freetype
+Feature: brotli
+Depends: brotli
+Architecture: x64-windows-static
+Multi-Arch: same
+Description: Support decompression of WOFF2 streams
+Status: install ok installed
+
+Package: freetype
+Feature: bzip2
+Depends: bzip2
+Architecture: x64-windows-static
+Multi-Arch: same
+Description: Support bzip2 compressed fonts.
+Status: install ok installed
+
+Package: freetype
+Feature: png
+Depends: libpng
+Architecture: x64-windows-static
+Multi-Arch: same
+Description: Support PNG compressed OpenType embedded bitmaps.
+Status: install ok installed
+
+Package: freetype
+Feature: zlib
+Depends: zlib
+Architecture: x64-windows-static
+Multi-Arch: same
+Description: Use zlib instead of internal library for DEFLATE
+Status: install ok installed
+
+Package: sdl2-ttf
+Version: 2.20.2
+Depends: freetype, sdl2, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows-static
+Multi-Arch: same
+Abi: 3549766e469795d16b8af2049fd70e89cc16600920d928dda833d2eec96dd9b7
+Description: A library for rendering TrueType fonts with SDL
+Status: install ok installed
+

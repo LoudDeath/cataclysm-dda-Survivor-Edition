@@ -1,0 +1,286 @@
+diff --git a/msvc-full-features/prebuild.cmd b/msvc-full-features/prebuild.cmd
+index b2f44e0c..67c79420 100644
+--- a/msvc-full-features/prebuild.cmd
++++ b/msvc-full-features/prebuild.cmd
+@@ -3,7 +3,12 @@ SETLOCAL
+ 
+ cd ..\msvc-full-features
+ set PATH=%PATH%;%VSAPPIDDIR%\CommonExtensions\Microsoft\TeamFoundation\Team Explorer\Git\cmd
++set VERSION=
++if exist ..\edition\BUILD_VERSION.txt (
++set /p VERSION=<..\edition\BUILD_VERSION.txt
++) else (
+ for /F "tokens=*" %%i in ('git describe --tags --always --dirty --match "cdda-0.I-*"') do set VERSION=%%i
++)
+ if "%VERSION%"=="" (
+ set VERSION=Please install `git` to generate VERSION
+ )
+diff --git a/src/game.cpp b/src/game.cpp
+index dc083dd4..55969e44 100644
+--- a/src/game.cpp
++++ b/src/game.cpp
+@@ -503,6 +503,7 @@ void game::load_static_data()
+ bool game::check_mod_data( const std::vector<mod_id> &opts )
+ {
+     dependency_tree &tree = world_generator->get_mod_manager().get_tree();
++    bool success = true;
+ 
+     // deduplicated list of mods to check
+     std::set<mod_id> check( opts.begin(), opts.end() );
+@@ -529,6 +530,7 @@ bool game::check_mod_data( const std::vector<mod_id> &opts )
+             DynamicDataLoader::get_instance().finalize_loaded_data();
+         } catch( const std::exception &err ) {
+             std::cerr << "Error loading data from json: " << err.what() << std::endl;
++            success = false;
+         }
+ 
+         std::string world_name = world_generator->active_world->world_name;
+@@ -563,18 +565,14 @@ bool game::check_mod_data( const std::vector<mod_id> &opts )
+         try {
+             load_core_data();
+ 
+-            // Load any dependencies and de-duplicate them
++            // Use the normal world's dependency order and conditional interaction loader.
+             std::vector<mod_id> dep_vector = tree.get_dependencies_of_X_as_strings( mod.ident );
+-            std::set<mod_id> dep_set( dep_vector.begin(), dep_vector.end() );
+-            for( const auto &dep : dep_set ) {
+-                load_data_from_dir( dep->path, dep->ident.str() );
+-            }
+-
+-            // Load mod itself
+-            load_data_from_dir( mod.path, mod.ident.str() );
+-            DynamicDataLoader::get_instance().finalize_loaded_data();
++            dep_vector.push_back( mod.ident );
++            test_world->active_mod_order = std::move( dep_vector );
++            load_world_modfiles();
+         } catch( const std::exception &err ) {
+             std::cerr << "Error loading data: " << err.what() << std::endl;
++            success = false;
+         }
+ 
+         std::string world_name = world_generator->active_world->world_name;
+@@ -583,7 +581,7 @@ bool game::check_mod_data( const std::vector<mod_id> &opts )
+         MAPBUFFER.clear();
+         overmap_buffer.clear();
+     }
+-    return true;
++    return success;
+ }
+ 
+ bool game::is_core_data_loaded() const
+diff --git a/src/init.cpp b/src/init.cpp
+index 59dfef16..aa6c32f5 100644
+--- a/src/init.cpp
++++ b/src/init.cpp
+@@ -605,6 +605,7 @@ void DynamicDataLoader::unload_data()
+     ammunition_type::reset();
+     anatomy::reset();
+     ascii_art::reset();
++    attack_vector::reset();
+     behavior::reset();
+     body_part_type::reset();
+     butchery_requirements::reset();
+diff --git a/src/json_loader.cpp b/src/json_loader.cpp
+index 1863c50c..ef6f8078 100644
+--- a/src/json_loader.cpp
++++ b/src/json_loader.cpp
+@@ -13,7 +13,11 @@ namespace
+ {
+ flexbuffer_cache &base_cache()
+ {
++#if defined(_WIN32)
++    static flexbuffer_cache cache{ ( PATH_INFO::user_dir_path() / "cache" / "base" ).get_unrelative_path(), PATH_INFO::base_path().get_unrelative_path() };
++#else
+     static flexbuffer_cache cache{ ( PATH_INFO::base_path() / "cache" ).get_unrelative_path(), PATH_INFO::base_path().get_unrelative_path() };
++#endif
+     return cache;
+ }
+ 
+@@ -25,7 +29,11 @@ flexbuffer_cache &config_cache()
+ 
+ flexbuffer_cache &data_cache()
+ {
++#if defined(_WIN32)
++    static flexbuffer_cache cache{ ( PATH_INFO::user_dir_path() / "cache" / "data" ).get_unrelative_path(), PATH_INFO::datadir_path().get_unrelative_path() };
++#else
+     static flexbuffer_cache cache{ ( PATH_INFO::datadir_path() / "cache" ).get_unrelative_path(), PATH_INFO::datadir_path().get_unrelative_path() };
++#endif
+     return cache;
+ }
+ 
+diff --git a/src/main.cpp b/src/main.cpp
+index cd7b94e6..dddb7417 100644
+--- a/src/main.cpp
++++ b/src/main.cpp
+@@ -24,6 +24,7 @@
+ #include <vector>
+ #if defined(_WIN32)
+ #include "platform_win.h"
++#include "../edition/windows_paths.h"
+ #else
+ #include <csignal>
+ #endif
+@@ -665,7 +666,14 @@ int main( int argc, const char *argv[] )
+     PATH_INFO::init_base_path( external_storage_path );
+ #else
+     // Set default file paths
+-#if defined(PREFIX)
++#if defined(_WIN32)
++    try {
++        PATH_INFO::init_base_path( survivor::executable_directory() );
++    } catch( const std::exception &err ) {
++        std::cerr << "Cannot locate game resources / Не удалось определить папку игры: " << err.what() << '\n';
++        return 1;
++    }
++#elif defined(PREFIX)
+     PATH_INFO::init_base_path( std::string( PREFIX ) );
+ #else
+     PATH_INFO::init_base_path( "" );
+@@ -674,6 +682,16 @@ int main( int argc, const char *argv[] )
+ 
+ #if defined(__ANDROID__)
+     PATH_INFO::init_user_dir( external_storage_path );
++#elif defined(_WIN32)
++    try {
++        // Explicit --userdir is applied by the unchanged command-line parser.
++        // It must also work if LocalAppData cannot be resolved.
++        PATH_INFO::init_user_dir( survivor::has_userdir_override( argc, argv ) ?
++                                 "." : survivor::profile_directory() );
++    } catch( const std::exception &err ) {
++        std::cerr << "Cannot locate user profile / Не удалось определить папку профиля: " << err.what() << '\n';
++        return 1;
++    }
+ #else
+ #   if defined(USE_HOME_DIR) || defined(USE_XDG_DIR) || defined(EMSCRIPTEN)
+     PATH_INFO::init_user_dir( "" );
+@@ -698,6 +716,12 @@ int main( int argc, const char *argv[] )
+                 PATH_INFO::user_dir().c_str() );
+         exit( 1 );
+     }
++    // The logger is opened before options create the configuration directory.
++    if( !assure_dir_exist( PATH_INFO::config_dir() ) ) {
++        std::cerr << "Cannot create configuration directory / Не удалось создать папку настроек: "
++                  << PATH_INFO::config_dir() << '\n';
++        return 1;
++    }
+ 
+ #if defined(EMSCRIPTEN)
+     setupDebug( DebugOutput::std_err );
+diff --git a/src/main_menu.cpp b/src/main_menu.cpp
+index 72069649..03220b95 100644
+--- a/src/main_menu.cpp
++++ b/src/main_menu.cpp
+@@ -1,4 +1,5 @@
+ #include "main_menu.h"
++#include "../edition/version.h"
+ 
+ #include <algorithm>
+ #include <array>
+@@ -347,8 +348,8 @@ void main_menu::print_menu( const catacurses::window &w_open, int iSel, const po
+     }
+ 
+     iLine++;
+-    center_print( w_open, iLine, c_light_blue, string_format( _( "Version: 0.I (Ito) Stable Release" ),
+-                  getVersionString() ) );
++    center_print( w_open, iLine, c_light_blue, std::string( survivor::edition_name ) + " " +
++                  survivor::edition_version + " | CDDA 0.I (Ito)" );
+ 
+     int menu_length = 0;
+     for( size_t i = 0; i < vMenuItems.size(); ++i ) {
+diff --git a/src/options.cpp b/src/options.cpp
+index a671b4a5..49e18e9a 100644
+--- a/src/options.cpp
++++ b/src/options.cpp
+@@ -1738,12 +1738,20 @@ void options_manager::add_options_general()
+ 
+ 
+         std::vector<id_and_option> const soundpacks = build_soundpacks_list();
++        std::string default_soundpack = "basic";
++        for( const id_and_option &option : soundpacks ) {
++            if( option.first == "CC-Sounds" ) {
++                default_soundpack = option.first;
++            }
++        }
++        for( const id_and_option &option : soundpacks ) {
++            if( option.first == "Survivor-SFX" ) {
++                default_soundpack = option.first;
++            }
++        }
+         add( "SOUNDPACKS", page_id, to_translation( "Choose soundpack" ),
+              to_translation( "Choose the soundpack you want to use.  Requires restart." ),
+-             soundpacks, std::any_of( soundpacks.begin(), soundpacks.end(),
+-        []( const id_and_option & option ) {
+-            return option.first == "CC-Sounds";
+-        } )  ? "CC-Sounds" : "basic",
++             soundpacks, default_soundpack,
+         COPT_NO_SOUND_HIDE
+            ); // populate the options dynamically
+ 
+diff --git a/src/path_info.cpp b/src/path_info.cpp
+index 65fd0396..657c2a27 100644
+--- a/src/path_info.cpp
++++ b/src/path_info.cpp
+@@ -231,7 +231,11 @@ cata_path PATH_INFO::base_path()
+ }
+ std::string PATH_INFO::cache_dir()
+ {
++#if defined(_WIN32)
++    return user_dir_value + "cache/data/";
++#else
+     return datadir_value + "cache/";
++#endif
+ }
+ cata_path PATH_INFO::colors()
+ {
+diff --git a/src/resource.rc b/src/resource.rc
+index 753f317b..8f13b58f 100644
+--- a/src/resource.rc
++++ b/src/resource.rc
+@@ -2,7 +2,7 @@
+ #define RESOURCE_RC_INCLUDED
+ 
+ #include <windows.h>
+-0  ICON  "../data/cataicon.ico"
++0  ICON  "../assets/generated/survivor-icon-minimal.ico"
+ 1  RT_MANIFEST "../data/application_manifest.xml"
+ 
+ #endif // RESOURCE_RC_INCLUDED
+diff --git a/src/sdltiles.cpp b/src/sdltiles.cpp
+index 020cf3da..52d6ad4f 100644
+--- a/src/sdltiles.cpp
++++ b/src/sdltiles.cpp
+@@ -1,5 +1,6 @@
+ #include "cursesdef.h" // IWYU pragma: associated
+ #include "sdltiles.h" // IWYU pragma: associated
++#include "../edition/version.h"
+ 
+ #include "cuboid_rectangle.h"
+ #include "point.h"
+@@ -199,7 +200,8 @@ static void InitSDL()
+     // Requires SDL 2.0.18. String used multiple ways, one of them is the game
+     // identifying itself when asking to inhibit screensaver via dbus under
+     // Linux.
+-    SDL_SetHint( SDL_HINT_APP_NAME, _( "Cataclysm: Dark Days Ahead" ) );
++    const std::string app_name = std::string( _( "Cataclysm: Dark Days Ahead" ) ) + " | " + survivor::edition_name;
++    SDL_SetHint( SDL_HINT_APP_NAME, app_name.c_str() );
+ #endif
+ 
+ #if defined(__linux__)
+diff --git a/src/translations.cpp b/src/translations.cpp
+index 6efab4ba..9f9479db 100644
+--- a/src/translations.cpp
++++ b/src/translations.cpp
+@@ -1,4 +1,5 @@
+ #include <string>
++#include "../edition/version.h"
+ 
+ #include "cata_utility.h"
+ #include "debug.h"
+@@ -104,5 +105,6 @@ void set_language( const std::string &lang )
+     // names.
+     SNIPPET.reload_names( PATH_INFO::names() );
+ 
+-    set_title( string_format( _( "Cataclysm: Dark Days Ahead - %s" ), getVersionString() ) );
++    set_title( string_format( _( "Cataclysm: Dark Days Ahead - %s" ), getVersionString() ) +
++               " | " + survivor::edition_name + " " + survivor::edition_version );
+ }

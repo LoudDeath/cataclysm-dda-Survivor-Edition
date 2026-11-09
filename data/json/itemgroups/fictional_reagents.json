@@ -1,0 +1,62 @@
+[
+  {
+    "type": "item_group",
+    "id": "fictional_reagent_kit",
+    "subtype": "collection",
+    "items": [
+      {
+        "item": "survivor_gloam_resin",
+        "charges": [
+          4200,
+          12600
+        ]
+      },
+      {
+        "item": "survivor_hollow_salt",
+        "charges": [
+          2675,
+          8025
+        ]
+      },
+      {
+        "item": "survivor_echo_solution",
+        "charges": [
+          946,
+          2838
+        ]
+      }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "survivor_methlab_with_reagents",
+    "subtype": "collection",
+    "items": [
+      {
+        "group": "methlab",
+        "prob": 100
+      },
+      {
+        "group": "fictional_reagent_kit",
+        "prob": 60
+      }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "survivor_chem_lab_with_reagents",
+    "subtype": "collection",
+    "items": [
+      {
+        "group": "chem_lab",
+        "prob": 100
+      },
+      {
+        "group": "fictional_reagent_kit",
+        "prob": 60
+      }
+    ],
+    "ammo": 50,
+    "magazine": 100
+  }
+]

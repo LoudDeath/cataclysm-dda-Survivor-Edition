@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "review_status": "CANDIDATE_PENDING_FINAL_QA_AND_LICENSE_REVIEW",
+  "required_files": ["cataclysm-tiles.exe", "LICENSE.txt", "LICENSE-Apache-Robot-Font.txt", "LICENSE-OFL-Terminus-Font.txt", "data/fontdata.json", "gfx/cdda.png", "gfx/layering.json", "gfx/tile_config.json", "gfx/tile_config_template.json", "gfx/tinytile.png", "lang/mo/ru/LC_MESSAGES/cataclysm-dda.mo"],
+  "required_trees": ["data/core", "data/credits", "data/font", "data/json", "data/mods", "data/motd", "data/names", "data/raw", "data/title", "data/sound/basic", "data/sound/Survivor-SFX", "gfx/UltimateCataclysm", "gfx/Larwick_Overmap", "gfx/ASCIITileset", "gfx/ASCII_Overmap"],
+  "excluded_subtrees": ["data/mods/TEST_DATA"],
+  "exclude_suffixes": [".po", ".pyc", ".pdb", ".obj", ".zip", ".dmp"],
+  "excluded_directory_names": ["__pycache__", ".git", "cache", "save", "config", "memorial", "graveyard"],
+  "notes": "Only declared roots enter game. Other tilesets, caches, test fixtures and working materials are not game content. License/QA clearance is evaluated separately."
+}

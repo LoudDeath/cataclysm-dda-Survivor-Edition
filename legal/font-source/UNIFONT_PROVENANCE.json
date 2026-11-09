@@ -1,0 +1,11 @@
+{
+  "version": "12.0.01",
+  "license": "GPL-2.0-or-later WITH Font-exception-2.0",
+  "binary": "data/font/unifont.ttf",
+  "binary_sha256": "caaa48b0197ac3a7d076293a24bcd05380c59c15c9e000de797abab25b7b3ba4",
+  "source": "legal/font-source/unifont-12.0.01.tar.gz",
+  "source_sha256": "6b275275d4aa279561527ab9de3717708b25de07da062386f798936fbe403215",
+  "source_url": "https://unifoundry.com/pub/unifont/unifont-12.0.01/unifont-12.0.01.tar.gz",
+  "source_precompiled_font_byte_match": "PASS",
+  "modified": false
+}

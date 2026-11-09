@@ -1,0 +1,351 @@
+{
+  "recipes": [
+    {
+      "audit_recipe_id": "crack:default",
+      "recipe_id": "crack",
+      "result": "crack",
+      "removed_groups": [
+        [
+          {
+            "id": "chem_baking_soda",
+            "count": 20
+          }
+        ]
+      ],
+      "reagent_budgets": [
+        {
+          "id": "survivor_hollow_salt",
+          "charges": 240
+        }
+      ],
+      "baseline_charges": 4
+    },
+    {
+      "audit_recipe_id": "heroin:default",
+      "recipe_id": "heroin",
+      "result": "heroin",
+      "removed_groups": [
+        [
+          {
+            "id": "acetic_anhydride",
+            "count": 2
+          }
+        ]
+      ],
+      "reagent_budgets": [
+        {
+          "id": "survivor_gloam_resin",
+          "charges": 100
+        }
+      ],
+      "baseline_difficulty": 6,
+      "baseline_charges": 3
+    },
+    {
+      "audit_recipe_id": "diazepam:default",
+      "recipe_id": "diazepam",
+      "result": "diazepam",
+      "removed_groups": [
+        [
+          {
+            "id": "chem_toluene",
+            "count": 105
+          }
+        ],
+        [
+          {
+            "id": "chem_benzene",
+            "count": 90
+          }
+        ],
+        [
+          {
+            "id": "chem_sodium",
+            "count": 33
+          }
+        ],
+        [
+          {
+            "id": "chem_nitric_acid",
+            "count": 1
+          }
+        ],
+        [
+          {
+            "id": "chem_muriatic_acid",
+            "count": 1
+          }
+        ],
+        [
+          {
+            "id": "chem_sulphuric_acid",
+            "count": 2
+          }
+        ],
+        [
+          {
+            "id": "chem_acetone",
+            "count": 1
+          }
+        ],
+        [
+          {
+            "id": "chem_methanol",
+            "count": 32
+          }
+        ],
+        [
+          {
+            "id": "lye_powder",
+            "count": 15
+          }
+        ],
+        [
+          {
+            "id": "chem_sulphur",
+            "count": 100
+          }
+        ],
+        [
+          {
+            "id": "chem_nickel_powder",
+            "count": 7
+          }
+        ],
+        [
+          {
+            "id": "chem_aluminium_powder",
+            "count": 16
+          }
+        ]
+      ],
+      "reagent_budgets": [
+        {
+          "id": "survivor_gloam_resin",
+          "charges": 3494
+        }
+      ],
+      "baseline_difficulty": 9,
+      "baseline_charges": 200
+    },
+    {
+      "audit_recipe_id": "anesthetic:default",
+      "recipe_id": "anesthetic",
+      "result": "anesthetic",
+      "removed_groups": [
+        [
+          {
+            "id": "ether",
+            "count": 420
+          }
+        ]
+      ],
+      "reagent_budgets": [
+        {
+          "id": "survivor_gloam_resin",
+          "charges": 4200
+        }
+      ],
+      "baseline_difficulty": 6
+    },
+    {
+      "audit_recipe_id": "hi_q_distillate:default",
+      "recipe_id": "hi_q_distillate",
+      "result": "hi_q_distillate",
+      "removed_groups": [
+        [
+          {
+            "id": "chem_ethanol",
+            "count": 9
+          }
+        ]
+      ],
+      "reagent_budgets": [
+        {
+          "id": "survivor_echo_solution",
+          "charges": 9
+        }
+      ],
+      "baseline_difficulty": 4,
+      "baseline_charges": 15
+    },
+    {
+      "audit_recipe_id": "hi_q_distillate:improvised_extraction",
+      "recipe_id": "hi_q_distillate_improvised_extraction",
+      "result": "hi_q_distillate",
+      "removed_groups": [
+        [
+          {
+            "id": "chem_ethanol",
+            "count": 9
+          }
+        ]
+      ],
+      "reagent_budgets": [
+        {
+          "id": "survivor_echo_solution",
+          "charges": 9
+        }
+      ],
+      "baseline_difficulty": 4,
+      "baseline_charges": 15
+    },
+    {
+      "audit_recipe_id": "hi_q_distillate:large_extraction",
+      "recipe_id": "hi_q_distillate_large_extraction",
+      "result": "hi_q_distillate",
+      "removed_groups": [
+        [
+          {
+            "id": "chem_ethanol",
+            "count": 9
+          }
+        ]
+      ],
+      "reagent_budgets": [
+        {
+          "id": "survivor_echo_solution",
+          "charges": 9
+        }
+      ],
+      "baseline_difficulty": 4,
+      "baseline_charges": 12
+    },
+    {
+      "audit_recipe_id": "hi_q_distillate:crude_extraction",
+      "recipe_id": "hi_q_distillate_crude_extraction",
+      "result": "hi_q_distillate",
+      "removed_groups": [
+        [
+          {
+            "id": "chem_ethanol",
+            "count": 20
+          }
+        ]
+      ],
+      "reagent_budgets": [
+        {
+          "id": "survivor_echo_solution",
+          "charges": 20
+        }
+      ],
+      "baseline_difficulty": 4,
+      "baseline_charges": 12
+    },
+    {
+      "audit_recipe_id": "cocaine_topical:default",
+      "recipe_id": "cocaine_topical",
+      "result": "cocaine_topical",
+      "removed_groups": [
+        [
+          {
+            "id": "chem_citric_acid",
+            "count": 9
+          }
+        ]
+      ],
+      "reagent_budgets": [
+        {
+          "id": "survivor_hollow_salt",
+          "charges": 9
+        }
+      ],
+      "baseline_difficulty": 2,
+      "baseline_charges": 10
+    },
+    {
+      "audit_recipe_id": "pure_meth:from_phosporous_iodine",
+      "recipe_id": "pure_meth_from_phosporous_iodine",
+      "result": "pure_meth",
+      "removed_groups": [
+        [
+          {
+            "id": "dayquil",
+            "count": 15
+          }
+        ],
+        [
+          {
+            "id": "iodine_crystal",
+            "count": 15
+          }
+        ],
+        [
+          {
+            "id": "red_phosphorous",
+            "count": 3
+          },
+          {
+            "id": "red_phosphorous_small",
+            "count": 270
+          }
+        ],
+        [
+          {
+            "id": "chem_acetone",
+            "count": 1
+          }
+        ],
+        [
+          {
+            "id": "chem_methanol",
+            "count": 3
+          }
+        ],
+        [
+          {
+            "id": "lye_powder",
+            "count": 5
+          },
+          {
+            "id": "chem_potassium_hydroxide",
+            "count": 25
+          },
+          {
+            "id": "lye",
+            "count": 1
+          },
+          {
+            "id": "lye_potassium",
+            "count": 1
+          }
+        ]
+      ],
+      "reagent_budgets": [
+        {
+          "id": "survivor_hollow_salt",
+          "charges": 2675
+        }
+      ],
+      "baseline_difficulty": 8,
+      "baseline_charges": 180
+    },
+    {
+      "audit_recipe_id": "prophets_lsd:default",
+      "recipe_id": "prophets_lsd",
+      "result": "prophets_lsd",
+      "removed_groups": [
+        [
+          {
+            "id": "chem_ethanol",
+            "count": 46
+          }
+        ],
+        [
+          {
+            "id": "chem_benzene",
+            "count": 90
+          }
+        ]
+      ],
+      "reagent_budgets": [
+        {
+          "id": "survivor_echo_solution",
+          "charges": 946
+        }
+      ],
+      "baseline_difficulty": 6,
+      "baseline_charges": 100
+    }
+  ]
+}

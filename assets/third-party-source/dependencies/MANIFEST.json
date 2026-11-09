@@ -1,0 +1,361 @@
+{
+  "schema_version": 1,
+  "runtime_packages": 16,
+  "packages": [
+    {
+      "name": "brotli",
+      "version": "1.1.0#1",
+      "port_tree": "4e5b5ae1ad26c80535c893cc0307121f0398549e",
+      "port_archive": "assets/third-party-source/dependencies/brotli/port.tar",
+      "port_sha256": "f570bc75dba39ffccb7b3169e1cf4be0fe9a04a21be4715238a1d46a781272a4",
+      "build_only": false,
+      "resources": [
+        {
+          "path": "assets/third-party-source/dependencies/brotli/source.tar.gz",
+          "source_url": "https://github.com/google/brotli/archive/v1.1.0.tar.gz",
+          "retrieved_from": "existing verified archive; upstream: https://github.com/google/brotli/archive/v1.1.0.tar.gz",
+          "sha512": "6eb280d10d8e1b43d22d00fa535435923c22ce8448709419d676ff47d4a644102ea04f488fc65a179c6c09fee12380992e9335bad8dfebd5d1f20908d10849d9",
+          "sha256": "e720a6ca29428b803f4ad165371771f5398faba397edf6778837a18599ea13ff",
+          "spdx_sha512_match": "PASS",
+          "bytes": 511969
+        }
+      ]
+    },
+    {
+      "name": "bzip2",
+      "version": "1.0.8#5",
+      "port_tree": "92e9a8bbf1abbd89872b48ad82fcf75852de1006",
+      "port_archive": "assets/third-party-source/dependencies/bzip2/port.tar",
+      "port_sha256": "5f2ee3c7cecc60cc5e31b8ec333560600cd0f08151d41dbd017ab2006d274fd2",
+      "build_only": false,
+      "resources": [
+        {
+          "path": "assets/third-party-source/dependencies/bzip2/source.tar.gz",
+          "source_url": "https://sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz",
+          "retrieved_from": "existing verified archive; upstream: https://sourceware.org/pub/bzip2/bzip2-1.0.8.tar.gz",
+          "sha512": "083f5e675d73f3233c7930ebe20425a533feedeaaa9d8cc86831312a6581cefbe6ed0d08d2fa89be81082f2a5abdabca8b3c080bf97218a1bd59dc118a30b9f3",
+          "sha256": "ab5a03176ee106d3f0fa90e381da478ddae405918153cca248e682cd0c4a2269",
+          "spdx_sha512_match": "PASS",
+          "bytes": 810029
+        }
+      ]
+    },
+    {
+      "name": "freetype",
+      "version": "2.12.1#4",
+      "port_tree": "4e52babe5d382c3f9cdb1b8037874d78eceb3512",
+      "port_archive": "assets/third-party-source/dependencies/freetype/port.tar",
+      "port_sha256": "76e5588fe15d4389e2de3d563e1562cf5d7af5525060e3e47efb915a6920559f",
+      "build_only": false,
+      "resources": [
+        {
+          "path": "assets/third-party-source/dependencies/freetype/source.tar.xz",
+          "source_url": "https://sourceforge.net/projects/freetype/freetype2/files/2.12.1/freetype-2.12.1.tar.xz",
+          "retrieved_from": "existing verified archive; upstream: https://sourceforge.net/projects/freetype/freetype2/files/2.12.1/freetype-2.12.1.tar.xz",
+          "sha512": "6482de1748dc2cc01e033d21a3b492dadb1f039d13d9179685fdcf985e24d7f587cbca4c27ed8a7fdb7d9ad59612642ac5f4db062443154753295363f45c052f",
+          "sha256": "4766f20157cc4cf0cd292f80bf917f92d1c439b243ac3018debf6b9140c41a7f",
+          "spdx_sha512_match": "PASS",
+          "bytes": 2471916
+        }
+      ]
+    },
+    {
+      "name": "libflac",
+      "version": "1.4.3",
+      "port_tree": "b03480bcc5f27cdc9a5f51fef012f880f1b0bf8d",
+      "port_archive": "assets/third-party-source/dependencies/libflac/port.tar",
+      "port_sha256": "eda82a55cef88ea928b40e4cef8fa7da7c8cf3dd84c1a51cbf70c7b3a26e2268",
+      "build_only": false,
+      "resources": [
+        {
+          "path": "assets/third-party-source/dependencies/libflac/source.tar.gz",
+          "source_url": "https://github.com/xiph/flac/archive/1.4.3.tar.gz",
+          "retrieved_from": "existing verified archive; upstream: https://github.com/xiph/flac/archive/1.4.3.tar.gz",
+          "sha512": "3571467a1d557bc03eade2ae9bb1a72fd94a89222e6ad9563078d646aac0b65ed1c3d829fb45dd3a6cdca806f7ba3b6393f0ce6571b43651959acaa1c2106396",
+          "sha256": "0a4bb82a30609b606650d538a804a7b40205366ce8fc98871b0ecf3fbb0611ee",
+          "spdx_sha512_match": "PASS",
+          "bytes": 914427
+        }
+      ]
+    },
+    {
+      "name": "libjpeg-turbo",
+      "version": "3.0.0#2",
+      "port_tree": "4510832adaa3f5f415a59d26f5520ca250a8ff77",
+      "port_archive": "assets/third-party-source/dependencies/libjpeg-turbo/port.tar",
+      "port_sha256": "1dda72622115b43e09058955bd24324f6b49d0e6af2fec0dbf5509926718c0f2",
+      "build_only": false,
+      "resources": [
+        {
+          "path": "assets/third-party-source/dependencies/libjpeg-turbo/source.tar.gz",
+          "source_url": "https://github.com/libjpeg-turbo/libjpeg-turbo/archive/3.0.0.tar.gz",
+          "retrieved_from": "existing verified archive; upstream: https://github.com/libjpeg-turbo/libjpeg-turbo/archive/3.0.0.tar.gz",
+          "sha512": "0efb7ce16333f4f3556b889bdd83b0f91697ce1645cbfb13db0c8a93ef47dd9cb0805c7160edaf946d4d54faf30a33bae90800c189e8b4bd44fcf3ce98179115",
+          "sha256": "171dae5d73560bc94006a7c0c3281bd9bfde6a34f7e41e66f930a1a9162bd7df",
+          "spdx_sha512_match": "PASS",
+          "bytes": 2799663
+        }
+      ]
+    },
+    {
+      "name": "libmodplug",
+      "version": "0.8.9.0#10",
+      "port_tree": "605d260810f9d1a489af7fb484d509581b39763d",
+      "port_archive": "assets/third-party-source/dependencies/libmodplug/port.tar",
+      "port_sha256": "3766a09ea98433bfb8a67d09e7a6db4b9c82011eb512ceefe22e0f0cea20e57f",
+      "build_only": false,
+      "resources": [
+        {
+          "path": "assets/third-party-source/dependencies/libmodplug/source.tar.gz",
+          "source_url": "https://github.com/Konstanty/libmodplug/archive/5a39f5913d07ba3e61d8d5afdba00b70165da81d.tar.gz",
+          "retrieved_from": "existing verified archive; upstream: https://github.com/Konstanty/libmodplug/archive/5a39f5913d07ba3e61d8d5afdba00b70165da81d.tar.gz",
+          "sha512": "c43bb3190b62c3a4e3636bba121b5593bbf8e6577ca9f2aa04d90b03730ea7fb590e640cdadeb565758b92e81187bc456e693fe37f1f4deace9b9f37556e3ba1",
+          "sha256": "7d472134fce267e3407caed1247b91c3dab24d7956b439027eabf2832c63845d",
+          "spdx_sha512_match": "PASS",
+          "bytes": 220460
+        }
+      ]
+    },
+    {
+      "name": "libogg",
+      "version": "1.3.5#1",
+      "port_tree": "98e27727c32704393494d32615c25b7b16eb3067",
+      "port_archive": "assets/third-party-source/dependencies/libogg/port.tar",
+      "port_sha256": "d30b8f2cebfb8d02f3bd4b4c4bb5ee6361a788cad5e371ff62ce80b47461c503",
+      "build_only": false,
+      "resources": [
+        {
+          "path": "assets/third-party-source/dependencies/libogg/source.tar.gz",
+          "source_url": "https://gitlab.xiph.org/xiph/ogg/-/archive/v1.3.5/ogg-v1.3.5.tar.gz",
+          "retrieved_from": "https://gitlab.xiph.org/xiph/ogg/-/archive/v1.3.5/ogg-v1.3.5.tar.gz",
+          "sha512": "72bfad534a459bfca534eae9b209fa630ac20364a82e82f2707b210a40deaf9a7dc9031532a8b27120a9dd66f804655ddce79875758ef14b109bf869e57fb747",
+          "sha256": "769ed632a71bfa8bdd3439ac7c712b74e12affdaeae2852c6a859bbbba424e68",
+          "spdx_sha512_match": "PASS",
+          "bytes": 251771
+        }
+      ]
+    },
+    {
+      "name": "libpng",
+      "version": "1.6.39#1",
+      "port_tree": "af144fe56e6e4c08cd8089d2e1dd46bae60a5062",
+      "port_archive": "assets/third-party-source/dependencies/libpng/port.tar",
+      "port_sha256": "8d438283e65205b2dc2737b686cc8554479e635cc5e35ed45586e4bf45749cca",
+      "build_only": false,
+      "resources": [
+        {
+          "path": "assets/third-party-source/dependencies/libpng/source.tar.gz",
+          "source_url": "https://github.com/glennrp/libpng/archive/v1.6.39.tar.gz",
+          "retrieved_from": "existing verified archive; upstream: https://github.com/glennrp/libpng/archive/v1.6.39.tar.gz",
+          "sha512": "d61408cee5850582baa57166547ccab6cc171bc809076e53494ace26157fd7787c3209e3b757fd68c541bfb95afe309745d887fb5cd2005b2024af7355c809a0",
+          "sha256": "a00e9d2f2f664186e4202db9299397f851aea71b36a35e74910b8820e380d441",
+          "spdx_sha512_match": "PASS",
+          "bytes": 1519415
+        }
+      ],
+      "excluded_optional_resource": "APNG patch: feature not installed (see installed status snapshot)"
+    },
+    {
+      "name": "libvorbis",
+      "version": "1.3.7#2",
+      "port_tree": "c4c646a26ce3e6ad63992d3e4a55cb185159b23c",
+      "port_archive": "assets/third-party-source/dependencies/libvorbis/port.tar",
+      "port_sha256": "739ae6f7eff2f73acb92d49782235c3f14ad225c76f0a72aeef07363b259c89c",
+      "build_only": false,
+      "resources": [
+        {
+          "path": "assets/third-party-source/dependencies/libvorbis/source.tar.gz",
+          "source_url": "https://github.com/xiph/vorbis/archive/v1.3.7.tar.gz",
+          "retrieved_from": "existing verified archive; upstream: https://github.com/xiph/vorbis/archive/v1.3.7.tar.gz",
+          "sha512": "bfb6f5dbfd49ed38b2b08b3667c06d02e68f649068a050f21a3cc7e1e56b27afd546aaa3199c4f6448f03f6e66a82f9a9dc2241c826d3d1d4acbd38339b9e9fb",
+          "sha256": "270c76933d0934e42c5ee0a54a36280e2d87af1de3cc3e584806357e237afd13",
+          "spdx_sha512_match": "PASS",
+          "bytes": 1234573
+        }
+      ]
+    },
+    {
+      "name": "mpg123",
+      "version": "1.31.3#2",
+      "port_tree": "58fbb0bf0ec6307689125ef1ba71112b670a42a9",
+      "port_archive": "assets/third-party-source/dependencies/mpg123/port.tar",
+      "port_sha256": "e23563c8794967409b5611299495696c9be68a3a1746a9675040aa31b010ffea",
+      "build_only": false,
+      "resources": [
+        {
+          "path": "assets/third-party-source/dependencies/mpg123/source.tar.bz2",
+          "source_url": "https://sourceforge.net/projects/mpg123/mpg123/files/1.31.3/mpg123-1.31.3.tar.bz2",
+          "retrieved_from": "existing verified archive; upstream: https://sourceforge.net/projects/mpg123/mpg123/files/1.31.3/mpg123-1.31.3.tar.bz2",
+          "sha512": "5dd550e06f5d0d432cac1b7e546215e56378b44588c1a98031498473211e08bc4228de45be41f7ba764f7f6c0eb752a6501235bcc3712c9a8d8852ae3c607d98",
+          "sha256": "1ca77d3a69a5ff845b7a0536f783fee554e1041139a6b978f6afe14f5814ad1a",
+          "spdx_sha512_match": "PASS",
+          "bytes": 1094474
+        }
+      ]
+    },
+    {
+      "name": "pdcurses",
+      "version": "3.9#6",
+      "port_tree": "61d47c082b38bc7c50c5b81d730c698dd4cea04f",
+      "port_archive": "assets/third-party-source/dependencies/pdcurses/port.tar",
+      "port_sha256": "70cf3bc90e9d545b5fdceb66d94585313d250602a7adb3ea7f4ce9139bf9e525",
+      "build_only": false,
+      "resources": [
+        {
+          "path": "assets/third-party-source/dependencies/pdcurses/source.tar.gz",
+          "source_url": "https://github.com/wmcbrine/PDCurses/archive/3.9.tar.gz",
+          "retrieved_from": "existing verified archive; upstream: https://github.com/wmcbrine/PDCurses/archive/3.9.tar.gz",
+          "sha512": "4fd7c1221c5f34d94069a563dda7a796653148d903bc9023afe134b0f13bdc8b5d30000dfc80ab800e46e58b395ac2fb494d1316b80914998de5bacf0d7f3558",
+          "sha256": "590dbe0f5835f66992df096d3602d0271103f90cf8557a5d124f693c2b40d7ec",
+          "spdx_sha512_match": "PASS",
+          "bytes": 363153
+        }
+      ]
+    },
+    {
+      "name": "sdl2",
+      "version": "2.28.4",
+      "port_tree": "289db88c23499b30e20bf972b2e1e68c093e5dea",
+      "port_archive": "assets/third-party-source/dependencies/sdl2/port.tar",
+      "port_sha256": "664c7a0eab614b243e92fe3a31b4d70015e4aa60ae219a2d2bb9750111294399",
+      "build_only": false,
+      "resources": [
+        {
+          "path": "assets/third-party-source/dependencies/sdl2/source.tar.gz",
+          "source_url": "https://github.com/libsdl-org/SDL/archive/release-2.28.4.tar.gz",
+          "retrieved_from": "existing verified archive; upstream: https://github.com/libsdl-org/SDL/archive/release-2.28.4.tar.gz",
+          "sha512": "3199e535033c8728bd12b97931d5c5d7a7dcc9b0f502109ff722982601b6fbb00995d71cbaab7d3b780c738deece235ef76ab1963ce946084c482c2d31a4abe8",
+          "sha256": "fde19f21e04329ce5be5f25616ab213a6eb2529f942c5ff6217ca2272d5e647d",
+          "spdx_sha512_match": "PASS",
+          "bytes": 7711224
+        }
+      ]
+    },
+    {
+      "name": "sdl2-image",
+      "version": "2.6.3",
+      "port_tree": "cea786776b9bf5d0af613153194d58fa74aaf011",
+      "port_archive": "assets/third-party-source/dependencies/sdl2-image/port.tar",
+      "port_sha256": "5f0e257432454d2209daf466274ec1a7d807739a13f3cfd3b388354d7c02ea49",
+      "build_only": false,
+      "resources": [
+        {
+          "path": "assets/third-party-source/dependencies/sdl2-image/source.tar.gz",
+          "source_url": "https://github.com/libsdl-org/SDL_image/archive/release-2.6.3.tar.gz",
+          "retrieved_from": "existing verified archive; upstream: https://github.com/libsdl-org/SDL_image/archive/release-2.6.3.tar.gz",
+          "sha512": "ffd0f838525e17a43d03ea5d4a094b0c79b2627bdbfb4589645abfb606c594773d60184de31bda45999421da75a69f1987ed696b255991212e498161102972b1",
+          "sha256": "e3fb5136e1c0e0e118051fbd96cddaf988715ed9fec9296b4861e21823c75b75",
+          "spdx_sha512_match": "PASS",
+          "bytes": 9789534
+        }
+      ]
+    },
+    {
+      "name": "sdl2-mixer",
+      "version": "2.6.3#1",
+      "port_tree": "4c169dd178363fec7d46194a45dc250b604b1f2e",
+      "port_archive": "assets/third-party-source/dependencies/sdl2-mixer/port.tar",
+      "port_sha256": "48bd7d85b3c5fcb14b4414a3bb0d2dff6b4fcdd3fe3266b3f05b53068b1af6bf",
+      "build_only": false,
+      "resources": [
+        {
+          "path": "assets/third-party-source/dependencies/sdl2-mixer/source.tar.gz",
+          "source_url": "https://github.com/libsdl-org/SDL_mixer/archive/release-2.6.3.tar.gz",
+          "retrieved_from": "existing verified archive; upstream: https://github.com/libsdl-org/SDL_mixer/archive/release-2.6.3.tar.gz",
+          "sha512": "74c2b449e8a9928679d42e25bd7a5967e41fe9d51732f26197c6bbe1db9170be784125b7f268476050017f3dc970497e09a0409d50731026a18355375d0369ce",
+          "sha256": "91dd065e9e63f499e5317350b110184b0ba96bc5f63c39b3a9939a136c40c035",
+          "spdx_sha512_match": "PASS",
+          "bytes": 9926750
+        }
+      ]
+    },
+    {
+      "name": "sdl2-ttf",
+      "version": "2.20.2",
+      "port_tree": "8ea231424114356e940ea3ac40fdc7da27ea95ad",
+      "port_archive": "assets/third-party-source/dependencies/sdl2-ttf/port.tar",
+      "port_sha256": "bf090afc6148dd7da6eb18be686c8370177f537cce4861ebe887900d7201af24",
+      "build_only": false,
+      "resources": [
+        {
+          "path": "assets/third-party-source/dependencies/sdl2-ttf/source.tar.gz",
+          "source_url": "https://github.com/libsdl-org/SDL_ttf/archive/release-2.20.2.tar.gz",
+          "retrieved_from": "existing verified archive; upstream: https://github.com/libsdl-org/SDL_ttf/archive/release-2.20.2.tar.gz",
+          "sha512": "ea059fce879f8ddb3b36f8364d65ef922c389db67383d8a5c42c0ebf8a407d55adce42620b4d04caa0b297847362cc733a9d3d9acb843897a535c875fd0c471f",
+          "sha256": "0fe9d587cdc4e6754b647536d0803bea8ca6ac77146c4209e0bed22391cf8241",
+          "spdx_sha512_match": "PASS",
+          "bytes": 8814413
+        }
+      ]
+    },
+    {
+      "name": "vcpkg-cmake",
+      "version": "2023-05-04",
+      "port_tree": "88a7058fc7fa73a9c4c99cfcae9d79e2abf87a5a",
+      "port_archive": "assets/third-party-source/dependencies/vcpkg-cmake/port.tar",
+      "port_sha256": "e4681fb38328d99cedb1281852fb89f3b31f043b6bba77790be31071972af575",
+      "build_only": true,
+      "resources": []
+    },
+    {
+      "name": "vcpkg-cmake-config",
+      "version": "2022-02-06#1",
+      "port_tree": "8d54cc4f487d51b655abec5f9c9c3f86ca83311f",
+      "port_archive": "assets/third-party-source/dependencies/vcpkg-cmake-config/port.tar",
+      "port_sha256": "6df0f9a6f196d6d8f39062db223e91854cfe71119bf82f99d6d3eae2a07f9575",
+      "build_only": true,
+      "resources": []
+    },
+    {
+      "name": "yasm",
+      "version": "1.3.0#5",
+      "port_tree": "e9ad958de17f5b7661720dc322cff96b2dff8355",
+      "port_archive": "assets/third-party-source/dependencies/yasm/port.tar",
+      "port_sha256": "43ffebedea025d5ed86e2726003aafaae800dcab2b0d13fea05835b8552ff242",
+      "build_only": true,
+      "resources": [
+        {
+          "path": "assets/third-party-source/dependencies/yasm/source.tar.gz",
+          "source_url": "https://github.com/yasm/yasm/archive/009450c7ad4d425fa5a10ac4bd6efbd25248d823.tar.gz",
+          "retrieved_from": "https://github.com/yasm/yasm/archive/009450c7ad4d425fa5a10ac4bd6efbd25248d823.tar.gz",
+          "sha512": "a542577558676d11b52981925ea6219bffe699faa1682c033b33b7534f5a0dfe9f29c56b32076b68c48f65e0aef7c451be3a3af804c52caa4d4357de4caad83c",
+          "sha256": "6634207257d23edde6e66dfe00d8b1160753ca7ca6137964f5c67d1e78e35503",
+          "spdx_sha512_match": "PASS",
+          "bytes": 1401424
+        }
+      ]
+    },
+    {
+      "name": "yasm-tool-helper",
+      "version": "2020-03-11#1",
+      "port_tree": "0a2dfb294bebae79c48cc710756756164175be1d",
+      "port_archive": "assets/third-party-source/dependencies/yasm-tool-helper/port.tar",
+      "port_sha256": "11e3f3e1e767140b51f9e95064e5e9bd24f76cf8ed90ff1ee42ece6fea60bcf5",
+      "build_only": true,
+      "resources": []
+    },
+    {
+      "name": "zlib",
+      "version": "1.3",
+      "port_tree": "5ac18c6e6e3e2bf5a9e3d0bc8a845f198e4c4e05",
+      "port_archive": "assets/third-party-source/dependencies/zlib/port.tar",
+      "port_sha256": "146aacd92dc4cbe386435e607be396022627e135adf2f6afd3e97be359b7aae4",
+      "build_only": false,
+      "resources": [
+        {
+          "path": "assets/third-party-source/dependencies/zlib/source.tar.gz",
+          "source_url": "https://github.com/madler/zlib/archive/v1.3.tar.gz",
+          "retrieved_from": "https://github.com/madler/zlib/archive/v1.3.tar.gz",
+          "sha512": "78eecf335b14af1f7188c039a4d5297b74464d61156e4f12a485c74beec7d62c4159584ad482a07ec57ae2616d58873e45b09cb8ea822bb5b17e43d163df84e9",
+          "sha256": "b5b06d60ce49c8ba700e0ba517fa07de80b5d4628a037f4be8ad16955be7a7c0",
+          "spdx_sha512_match": "PASS",
+          "bytes": 1554358
+        }
+      ]
+    }
+  ],
+  "vcpkg_commit": "6d7bf7ef2193e2d1c5798a5ff8811d533104c861",
+  "vcpkg_recipe_sha256": "d97108a3c8539e9811198fe704c6f1ee7ca0976c4aa9b8832145cba9259ab89e",
+  "archive_verification": "PASS",
+  "clean_rebuild_using_bundled_sources": "UNKNOWN"
+}

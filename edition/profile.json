@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "name": "Cataclysm: Dark Days Ahead — Survivor Edition",
+  "edition_version": "1.0.0-rc.3",
+  "upstream_repository": "https://github.com/CleverRaven/Cataclysm-DDA.git",
+  "upstream_tag": "0.I",
+  "upstream_tag_object": "32d99a256e6101c2091112560818a4d668406267",
+  "upstream_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+  "platform": "windows-x64",
+  "supported_windows": [
+    "10",
+    "11"
+  ],
+  "locales": [
+    "ru",
+    "en"
+  ],
+  "tileset": "UltimateCataclysm",
+  "soundpack_candidate": "Survivor-SFX",
+  "bundled_mods": "verified-upstream-with-dependencies",
+  "project_type": "client",
+  "monetization": "premium",
+  "one_time_purchase": true,
+  "has_in_game_payments": false,
+  "donations": false,
+  "advertisements": false,
+  "subscriptions": false,
+  "has_demo": false,
+  "has_dlc": false,
+  "uses_vk_play_market": false,
+  "uses_online_servers": false,
+  "uses_vk_play_api": false,
+  "platform_integration_verified": false,
+  "telemetry": false,
+  "crash_uploads": false,
+  "release_directory": "relese",
+  "user_directory_name": "CDDA-Survivor",
+  "publisher": {
+    "name": "LoudD",
+    "legal_address": null,
+    "email": null,
+    "phone": null,
+    "support_contact": null,
+    "price": null,
+    "release_countries": [],
+    "vk_play_project_id": null
+  }
+}

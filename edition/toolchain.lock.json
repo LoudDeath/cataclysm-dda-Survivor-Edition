@@ -1,0 +1,12 @@
+{
+  "upstream_commit": "27939e29b8b4ddc081490d9f51de59a459c88df6",
+  "vcpkg_source_commit": "6d7bf7ef2193e2d1c5798a5ff8811d533104c861",
+  "vcpkg_tool_release": "2025-12-16",
+  "vcpkg_builtin_baseline": "3acb7541e854452d33f71037a8f63a88899e63d3",
+  "triplet": "x64-windows-static",
+  "cmake": "3.31.8",
+  "msvc_tools": "14.51.36231",
+  "windows_sdk": "10.0.26100.0",
+  "build_status": "GAME_TESTS_FORMATTER_RELEASE_X64_PASS; REGULAR_SUITE_1136_PASS",
+  "metrics_disabled": true
+}

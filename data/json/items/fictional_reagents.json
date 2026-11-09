@@ -1,0 +1,75 @@
+[
+  {
+    "id": "survivor_gloam_resin",
+    "type": "ITEM",
+    "subtypes": [
+      "AMMO"
+    ],
+    "category": "chems",
+    "name": {
+      "str_sp": "Gloam Resin"
+    },
+    "description": "A dark, fragrant resin drawn from Gloamroot and prized by backroad apothecaries.",
+    "material": [
+      "powder_nonflam"
+    ],
+    "volume": "100 ml",
+    "weight": "100 g",
+    "ammo_type": "components",
+    "count": 100,
+    "stack_size": 100,
+    "symbol": "=",
+    "color": "light_blue",
+    "price": "1 USD",
+    "price_postapoc": "1 USD"
+  },
+  {
+    "id": "survivor_hollow_salt",
+    "type": "ITEM",
+    "subtypes": [
+      "AMMO"
+    ],
+    "category": "chems",
+    "name": {
+      "str_sp": "Hollow Salt"
+    },
+    "description": "Pale, porous crystals that hold a faint static charge, used in backcountry stimulant preparations.",
+    "material": [
+      "powder_nonflam"
+    ],
+    "volume": "100 ml",
+    "weight": "100 g",
+    "ammo_type": "components",
+    "count": 100,
+    "stack_size": 100,
+    "symbol": "=",
+    "color": "light_blue",
+    "price": "1 USD",
+    "price_postapoc": "1 USD"
+  },
+  {
+    "id": "survivor_echo_solution",
+    "type": "ITEM",
+    "subtypes": [
+      "AMMO"
+    ],
+    "category": "chems",
+    "name": {
+      "str_sp": "Echo Solution"
+    },
+    "description": "A clear, faintly shimmering solvent that carries a soft ringing note when shaken.",
+    "material": [
+      "water"
+    ],
+    "volume": "100 ml",
+    "weight": "100 g",
+    "ammo_type": "components",
+    "count": 100,
+    "stack_size": 100,
+    "symbol": "=",
+    "color": "light_blue",
+    "price": "1 USD",
+    "price_postapoc": "1 USD",
+    "phase": "liquid"
+  }
+]

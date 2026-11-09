@@ -1,0 +1,1165 @@
+{
+  "LABELS": {
+    "coke": [
+      "Grey Ash",
+      "Серый пепел"
+    ],
+    "cocaine_topical": [
+      "Grey Ash salve",
+      "мазь серого пепла"
+    ],
+    "crack": [
+      "Glass Cinder",
+      "Стеклянная зола"
+    ],
+    "heroin": [
+      "Black Veil",
+      "Чёрная вуаль"
+    ],
+    "morphine": [
+      "Still Pool",
+      "Тихий омут"
+    ],
+    "codeine": [
+      "Dull Chime",
+      "Глухой звон"
+    ],
+    "oxycodone": [
+      "Stone Sleep",
+      "Каменный сон"
+    ],
+    "tramadol": [
+      "Dim Spark",
+      "Тусклая искра"
+    ],
+    "adderall": [
+      "Rust Pulse",
+      "Ржавый импульс"
+    ],
+    "meth": [
+      "Unrefined Storm Grit",
+      "Неочищенная грозовая крошка"
+    ],
+    "pure_meth": [
+      "Refined Storm Grit",
+      "Очищенная грозовая крошка"
+    ],
+    "cola_meth": [
+      "Storm Cola",
+      "Грозовая кола"
+    ],
+    "lsd": [
+      "Echo Shard",
+      "Осколок эха"
+    ],
+    "prophets_lsd": [
+      "Seer's Shard",
+      "Осколок провидца"
+    ],
+    "diazepam": [
+      "Dead Calm",
+      "Мёртвый штиль"
+    ],
+    "xanax": [
+      "Dust Curtain",
+      "Пыльный занавес"
+    ],
+    "prozac": [
+      "Pale Dawn",
+      "Бледный рассвет"
+    ],
+    "thorazine": [
+      "Grey Shroud",
+      "Серая завеса"
+    ],
+    "pills_sleep": [
+      "Night Glass",
+      "Ночное стекло"
+    ],
+    "melatonin_tablet": [
+      "Dusk Grain",
+      "Сумеречное зерно"
+    ],
+    "weed": [
+      "Ashleaf",
+      "Пепельник"
+    ],
+    "cannabis": [
+      "Ashleaf plant",
+      "растение пепельник"
+    ],
+    "seed_weed": [
+      "Ashleaf seeds",
+      "семена пепельника"
+    ],
+    "joint": [
+      "Ashleaf roll",
+      "свёрток пепельника"
+    ],
+    "joint_lit": [
+      "lit Ashleaf roll",
+      "зажжённый свёрток пепельника"
+    ],
+    "joint_roach": [
+      "charred Ashleaf roll",
+      "обгорелый свёрток пепельника"
+    ],
+    "brownie_weed": [
+      "Ashleaf brownie",
+      "брауни с пепельником"
+    ],
+    "space_cake": [
+      "Ashleaf cake",
+      "пирог с пепельником"
+    ],
+    "hi_q_shatter": [
+      "Ashleaf shards",
+      "осколки пепельника"
+    ],
+    "hi_q_wax": [
+      "Ashleaf wax",
+      "воск пепельника"
+    ],
+    "hi_q_distillate": [
+      "Ashleaf distillate",
+      "дистиллят пепельника"
+    ],
+    "f_wildweed": [
+      "wild Ashleaf",
+      "дикий пепельник"
+    ],
+    "f_mutpoppy": [
+      "Gloamroot",
+      "Сумеречник"
+    ],
+    "poppy_bud": [
+      "Gloamroot pod",
+      "коробочка сумеречника"
+    ],
+    "seed_poppy_bud": [
+      "Gloamroot seeds",
+      "семена сумеречника"
+    ],
+    "poppy_pain": [
+      "Gloamroot pain draught",
+      "обезболивающий настой сумеречника"
+    ],
+    "poppy_sleep": [
+      "Gloamroot sleep draught",
+      "снотворный настой сумеречника"
+    ],
+    "poppysyrup": [
+      "Gloamroot cough syrup",
+      "сироп от кашля сумеречника"
+    ],
+    "f_datura": [
+      "Moonbane",
+      "Лунный морок"
+    ],
+    "datura_seed": [
+      "Moonbane seeds",
+      "семена лунного морока"
+    ],
+    "fentanyl": [
+      "Lead Whisper",
+      "Свинцовый шёпот"
+    ],
+    "opium": [
+      "Thick Dusk",
+      "Густой сумрак"
+    ]
+  },
+  "DESCRIPTION_TEXTS": {
+    "weed": [
+      "Dried Ashleaf flower and leaves.  Survivors smoke it to settle nausea, encourage appetite, and lift their mood.  It can become a habit, and bad reactions are possible.",
+      "Высушенные листья и соцветия Пепельника. Выжившие курят его, чтобы унять тошноту, вернуть аппетит и поднять настроение. Он может вызывать привычку, а реакция организма бывает непредсказуемой."
+    ],
+    "cannabis": [
+      "A hardy broadleaf plant with resinous flowers and strong fibers.  Its leaves and seed-bearing tops are useful after careful drying and processing.",
+      "Выносливое широколистное растение с липкими соцветиями и крепкими волокнами. После сушки и обработки его листья и семенные верхушки находят разное применение."
+    ],
+    "seed_weed": [
+      "Seeds from an Ashleaf plant.  Rich in nutrients, they can be roasted or eaten raw.",
+      "Семена растения Пепельник. Они питательны: их можно обжарить или съесть сырыми."
+    ],
+    "hi_q_shatter": [
+      "A concentrated Ashleaf resin pressed into a thin, brittle sheet that snaps at room temperature.  It is more potent than loose flower and must be heated before use.",
+      "Концентрированная смола Пепельника, спрессованная в тонкий ломкий лист, который крошится при комнатной температуре. Она сильнее обычных соцветий; перед употреблением её нужно нагреть."
+    ],
+    "hi_q_wax": [
+      "A concentrated Ashleaf resin with a soft, waxy texture.  It is stronger than loose flower and must be heated before use.",
+      "Концентрированная смола Пепельника мягкой восковой консистенции. Она сильнее обычных соцветий; перед употреблением её нужно нагреть."
+    ],
+    "hi_q_distillate": [
+      "A highly refined Ashleaf resin.  Most plant matter has been removed, leaving a potent liquid that can be used in a refillable electronic cigarette.",
+      "Хорошо очищенная смола Пепельника. Большая часть растительной массы удалена; осталась крепкая жидкость, которую можно использовать в многоразовой электронной сигарете."
+    ],
+    "f_mutpoppy": [
+      "These strange flowers appeared after the Cataclysm.  Their swollen pods yield a medicinal sap, while their roots writhe beneath the soil and their heavy scent makes you drowsy.",
+      "Эти странные цветы появились после Катаклизма. В их вздутых коробочках накапливается лекарственный сок, корни извиваются под землёй, а тяжёлый аромат навевает сонливость."
+    ],
+    "poppy_bud": [
+      "A swollen Gloamroot pod.  It contains the plant's potent medicinal sap.",
+      "Вздутая коробочка Сумеречника. В ней содержится крепкий лекарственный сок растения."
+    ],
+    "seed_poppy_bud": [
+      "Seeds of the Gloamroot, a hardy plant whose pods are valued for their medicinal sap.",
+      "Семена Сумеречника — выносливого растения, чьи коробочки ценят за лекарственный сок."
+    ],
+    "poppy_pain": [
+      "A potent pain draught refined from Gloamroot sap.  It dulls pain without a rush or a heavy sedative effect, but repeated use can become a habit.",
+      "Крепкий обезболивающий настой из сока Сумеречника. Он притупляет боль без эйфории и сильного седативного действия, но при регулярном употреблении может вызвать привычку."
+    ],
+    "poppy_sleep": [
+      "A potent sleep draught made from Gloamroot seed resin.  It helps bring on sleep, but repeated use can become a habit.",
+      "Крепкий снотворный настой из смолы семян Сумеречника. Он помогает уснуть, но при регулярном употреблении может вызвать привычку."
+    ],
+    "poppysyrup": [
+      "A drowsiness-inducing cough syrup brewed from Gloamroot sap.",
+      "Сироп от кашля из сока Сумеречника; он вызывает сонливость."
+    ],
+    "datura_seed": [
+      "Small, dark seeds from Moonbane's spiny pods.  They can dull pain and distort the senses; an overdose can be fatal.",
+      "Мелкие тёмные семена из колючих коробочек Лунного морока. Они притупляют боль и искажают восприятие; передозировка может быть смертельной."
+    ],
+    "adderall": [
+      "A prescription stimulant made from bitter Rust Pulse crystals.  It can sharpen focus and suppress appetite, but it is habit-forming.",
+      "Рецептурный стимулятор из горьких кристаллов Ржавого импульса. Он помогает сосредоточиться и подавляет аппетит, но может вызвать зависимость."
+    ],
+    "coke": [
+      "A fine grey powder prepared from Ashen resin.  It can be used as a topical anesthetic, though survivors more often seek its short, forceful rush.  It is highly addictive.",
+      "Мелкий серый порошок из пепельной смолы. Его можно применять как местное обезболивающее, но выжившие чаще ищут короткий резкий подъём. Он вызывает сильную зависимость."
+    ],
+    "crack": [
+      "Hard, brittle crystals refined from Grey Ash.  The rush is intense and brief, and repeated use can rapidly damage health and judgment.",
+      "Твёрдые ломкие кристаллы, полученные из Серого пепла. Подъём сильный и короткий; повторное употребление быстро вредит здоровью и способности здраво мыслить."
+    ],
+    "diazepam": [
+      "A powerful prescription sedative used for muscle spasms, anxiety, seizures, and panic.  Misuse can cause dependence and dangerous drowsiness.",
+      "Мощное рецептурное успокоительное от мышечных спазмов, тревоги, судорог и панических приступов. Неправильное применение может вызвать зависимость и опасную сонливость."
+    ],
+    "heroin": [
+      "An extremely potent injectable made from Still Pool.  It is highly addictive, carries an extreme overdose risk, and has almost no safe use outside medical care.",
+      "Чрезвычайно сильное инъекционное средство, получаемое из Тихого омута. Оно вызывает сильную зависимость, несёт высокий риск передозировки и почти не имеет безопасного применения вне медицинской помощи."
+    ],
+    "morphine": [
+      "A potent injectable used to relieve severe pain.  It requires a syringe and can quickly become habit-forming; use with care.",
+      "Сильное инъекционное средство для снятия острой боли. Для введения нужен шприц; оно быстро вызывает привычку, поэтому обращайтесь с ним осторожно."
+    ],
+    "codeine": [
+      "A mild pain and cough remedy made from Dull Chime.  Its effects are modest, but it can still cause dependence or an overdose.",
+      "Мягкое средство от боли и кашля на основе Глухого звона. Его действие умеренное, но оно всё же может вызвать зависимость или передозировку."
+    ],
+    "oxycodone": [
+      "A strong pain remedy made from Stone Sleep.  It can relieve intense pain, but carries a high risk of dependence.",
+      "Сильное обезболивающее на основе Каменного сна. Оно помогает при острой боли, но несёт высокий риск зависимости."
+    ],
+    "tramadol": [
+      "A subdued, long-lasting pain remedy based on Dim Spark.  It can ease moderate pain for several hours and may still cause dependence.",
+      "Мягкое и долго действующее обезболивающее на основе Тусклой искры. Оно облегчает умеренную боль на несколько часов, но всё же может вызвать зависимость."
+    ],
+    "meth": [
+      "A powerful, habit-forming stimulant made from unrefined Storm Grit.  It can keep you alert, but strains the body and may trigger a dangerous reaction.",
+      "Мощный стимулятор из неочищенной Грозовой крошки, вызывающий зависимость. Он помогает не терять бодрость, но истощает организм и может вызвать опасную реакцию."
+    ],
+    "pure_meth": [
+      "A refined, habit-forming stimulant made from Storm Grit.  It can keep you intensely alert, but strains the body and may trigger a dangerous reaction.",
+      "Очищенный стимулятор из Грозовой крошки, вызывающий зависимость. Он поддерживает предельную бодрость, но истощает организм и может вызвать опасную реакцию."
+    ],
+    "prozac": [
+      "A common mood-stabilizing medicine.  It can lift mood and alter the effects of other psychoactive substances.  Adverse reactions are possible.",
+      "Распространённое средство для стабилизации настроения. Оно помогает поднять настроение и меняет действие других психоактивных веществ. Возможны побочные реакции."
+    ],
+    "thorazine": [
+      "A medicine used to reduce hallucinations and other symptoms of psychosis.  It also causes drowsiness.",
+      "Средство для уменьшения галлюцинаций и других проявлений психоза. Оно также вызывает сонливость."
+    ],
+    "xanax": [
+      "A fast-acting anti-anxiety tablet with a powerful sedative effect.  It may cause dissociation or memory loss, is dangerously habit-forming, and should be tapered gradually after regular use.",
+      "Быстродействующая таблетка от тревоги с сильным седативным действием. Она может вызвать отрешённость или потерю памяти, быстро формирует зависимость, а после регулярного употребления дозу следует снижать постепенно."
+    ],
+    "melatonin_tablet": [
+      "An over-the-counter Dusk Grain supplement used to ease sleep deprivation and help recovery after a good night's rest.",
+      "Безрецептурная добавка Сумеречное зерно, облегчающая недосыпание и помогающая восстановиться после полноценного сна."
+    ],
+    "pills_sleep": [
+      "A habit-forming sleep aid with psychoactive side effects.  It is used to treat insomnia.",
+      "Снотворное, способное вызвать зависимость и психоактивные побочные эффекты. Его применяют при бессоннице."
+    ],
+    "red_phosphorous": [
+      "A red form of phosphorus used in safety matches and pyrotechnics.  It is dangerous to handle and should be kept away from heat and friction.",
+      "Красная форма фосфора, применяемая в безопасных спичках и пиротехнике. Опасна при обращении; её следует беречь от нагрева и трения."
+    ],
+    "red_phosphorous_small": [
+      "A small quantity of red phosphorus used in safety matches and pyrotechnics.  It is dangerous to handle and should be kept away from heat and friction.",
+      "Небольшое количество красного фосфора, применяемого в безопасных спичках и пиротехнике. Опасно при обращении; его следует беречь от нагрева и трения."
+    ],
+    "acetic_anhydride": [
+      "A clear, corrosive liquid with a sharp vinegar-like odor.  It is used in industrial work and can cause severe burns on contact.",
+      "Прозрачная едкая жидкость с резким запахом уксуса. Применяется в промышленности и при контакте может вызвать тяжёлые ожоги."
+    ],
+    "iodine_crystal": [
+      "A handful of resublimed iodine crystals.  They can be used as an antiseptic or for general laboratory work.",
+      "Горсть перекристаллизованных кристаллов йода. Их можно использовать как антисептик или для обычных лабораторных работ."
+    ],
+    "cola_meth": [
+      "A potent brew of Storm Cola stimulant, caffeine, and corn syrup.  It puts a spring in your step and a fire in your eye, but can bring on a dangerous racing heartbeat.",
+      "Крепкая смесь стимулятора Грозовая кола, кофеина и кукурузного сиропа. Она придаёт бодрости и блеска глазам, но может вызвать опасное учащение сердцебиения."
+    ],
+    "joint": [
+      "A small Ashleaf roll wrapped in paper.  Its drifting smoke can bring a brief sense of calm and distort perception.  Repeated use may lead to dependence.",
+      "Небольшой свёрток пепельника в бумажной оболочке.  Его дым может ненадолго успокоить и исказить восприятие.  Частое употребление способно вызвать зависимость."
+    ]
+  },
+  "EXACT_OVERRIDES": {
+    "Opiate Withdrawal": [
+      "Stilling Compound Withdrawal",
+      "Ломка от составов тишины"
+    ],
+    "opiates": [
+      "stilling compounds",
+      "составы тишины"
+    ],
+    "Opiate Intoxication": [
+      "Stilling Compound Intoxication",
+      "Отравление составами тишины"
+    ],
+    "Opiate Debilitation": [
+      "Stilling Compound Debilitation",
+      "Ослабление от составов тишины"
+    ],
+    "Mild Opiate Euphoria": [
+      "Mild Stilling Compound Euphoria",
+      "Слабая эйфория от составов тишины"
+    ],
+    "Moderate Opiate Euphoria": [
+      "Moderate Stilling Compound Euphoria",
+      "Умеренная эйфория от составов тишины"
+    ],
+    "Significant Opiate Euphoria": [
+      "Significant Stilling Compound Euphoria",
+      "Сильная эйфория от составов тишины"
+    ],
+    "Crack Cocaine Withdrawal": [
+      "Glass Cinder Withdrawal",
+      "Ломка от стеклянной золы"
+    ],
+    "crack cocaine": [
+      "Glass Cinder",
+      "стеклянная зола"
+    ],
+    "Cocaine Withdrawal": [
+      "Grey Ash Withdrawal",
+      "Ломка от серого пепла"
+    ],
+    "cocaine": [
+      "Grey Ash",
+      "серый пепел"
+    ],
+    "crackhead": [
+      "Glass Cinder user",
+      "человек, употребляющий Стеклянную золу"
+    ],
+    "Crack Cocaine Dependence": [
+      "Glass Cinder Dependence",
+      "Зависимость от стеклянной золы"
+    ],
+    "Crack": [
+      "Glass Cinder",
+      "Стеклянная зола"
+    ],
+    "Amphetamine Withdrawal": [
+      "Rust Pulse Withdrawal",
+      "Ломка от Ржавого импульса"
+    ],
+    "amphetamine": [
+      "Rust Pulse",
+      "Ржавый импульс"
+    ],
+    "Amphetamine Dependence": [
+      "Rust Pulse Dependence",
+      "Зависимость от Ржавого импульса"
+    ],
+    "Sleeping Pill Dependence": [
+      "Night Glass Dependence",
+      "Зависимость от Ночного стекла"
+    ],
+    "sleeping pills": [
+      "Night Glass",
+      "Ночное стекло"
+    ],
+    "Diazepam Withdrawal": [
+      "Dead Calm Withdrawal",
+      "Ломка от Мёртвого штиля"
+    ],
+    "diazepam": [
+      "Dead Calm",
+      "Мёртвый штиль"
+    ],
+    "BREADSEED POPPY\nPapaver somniferum\nPlanted by <full_name>": [
+      "GLOAMROOT\nAnomalous botanical specimen\nPlanted by <full_name>",
+      "СУМЕРЕЧНИК\nАномальное растение\nВысажено: <full_name>"
+    ],
+    "SACRED DATURA\nDatura wrightii\nPlanted by <full_name>": [
+      "MOONBANE\nAnomalous botanical specimen\nPlanted by <full_name>",
+      "ЛУННЫЙ МОРОК\nАномальное растение\nВысажено: <full_name>"
+    ],
+    "swirl of pot smoke": [
+      "swirl of Ashleaf smoke",
+      "обволакивающий дым пепельника"
+    ],
+    "pot smoke": [
+      "Ashleaf smoke",
+      "дым пепельника"
+    ],
+    "thick pot smoke": [
+      "thick Ashleaf smoke",
+      "густой дым пепельника"
+    ],
+    "Smoke/snort meth": [
+      "Use Storm Grit",
+      "Использовать грозовую крошку"
+    ],
+    "Craving speed": [
+      "Craving pulse compounds",
+      "Тяга к импульсным составам"
+    ],
+    "That's a story in itself, my friend.  I had one of the largest grow-ops on the Eastern seaboard.  Hah, the stories I could tell you… but I won't.  That's all way behind me.": [
+      "That's a story in itself, my friend.  I had one of the largest Ashleaf gardens on the Eastern seaboard.  Hah, the stories I could tell you… but I won't.  That's all way behind me.",
+      "Это целая история, дружище.  У меня был один из крупнейших садов пепельника на Восточном побережье.  Ха, я много мог бы тебе рассказать…  Но не буду.  Всё это позади."
+    ],
+    "I've had a bad run of things.  I grew up real poor, in a bad part of town, always got my nose where it shouldn't have been.  When I was about eighteen, I started doing coke heavily.  Every two days, I'd get spaced out on the stuff; started robbing gas stations and dumb <freaking> things like that for a fix.  I went to jail, and I met the New England Church Community there.  I joined up to find penance for my sins.  Another thing, stay off of that <freaking> stuff; I messed up my brain real bad doin' that.": [
+      "I've had a bad run of things.  I grew up real poor, in a bad part of town, always got my nose where it shouldn't have been.  When I was about eighteen, I started using Grey Ash heavily.  Every two days, I'd get spaced out on the stuff; started robbing gas stations and dumb <freaking> things like that for a fix.  I went to jail, and I met the New England Church Community there.  I joined up to find penance for my sins.  Another thing, stay off of that <freaking> stuff; I messed up my brain real bad doin' that.",
+      "Дела мои были плохи.  Я вырос в очень бедной семье, в трущобах, и всегда совал свой нос, куда не следовало.  В восемнадцать я пристрастился к Серому пеплу.  Каждые два дня меня накрывало; я начал грабить бензоколонки и вытворять <freaking> глупости ради новой порции.  Потом меня загребли в каталажку, где я и встретил Церковную общину Новой Англии.  Я присоединился, чтобы покаяться за свои грехи.  Кстати, держись подальше от этой <freaking> дряни.  Я ею сильно испортил себе мозги."
+    ],
+    "dispensary": [
+      "Ashleaf dispensary",
+      "лавка пепельника"
+    ],
+    "dispensary roof": [
+      "Ashleaf dispensary roof",
+      "крыша лавки пепельника"
+    ],
+    "You feel like you need a bump.": [
+      "You feel a craving for Grey Ash.",
+      "Вас тянет к Серому пеплу."
+    ],
+    "What would you do for some coke, right now?": [
+      "What would you do for some Grey Ash, right now?",
+      "Что бы вы сделали ради Серого пепла прямо сейчас?"
+    ],
+    "POWERTHIRST in new Manana flavor.  Contains preposterous amounts of testosterone.  PREPOSTERONE.  It's like crystal meth in a can.  It's crystal meth in a can.  Powerthirst is crystal meth.": [
+      "POWERTHIRST in new Manana flavor.  The label promises a storm of energy from a secret wasteland blend.  Its makers boast that every can holds the fury of crystallized Storm Grit.",
+      "POWERTHIRST со вкусом Мананы.  Этикетка обещает бурю энергии от тайной смеси пустошей.  Производители хвастаются, что в каждой банке заключена ярость кристаллов грозовой крошки."
+    ],
+    "swirl of meth smoke": [
+      "swirl of Storm Grit smoke",
+      "клуб дыма грозовой крошки"
+    ],
+    "Meth will destroy you, <name_g>.": [
+      "Storm Grit will destroy you, <name_g>.",
+      "Грозовая крошка тебя погубит, <name_g>."
+    ],
+    "You really want to be a meth head?": [
+      "You really want to be a Storm Grit head?",
+      "Ты правда хочешь стать зависимым от грозовой крошки?"
+    ],
+    "You're seriously smoking meth right now?": [
+      "You're seriously smoking Storm Grit right now?",
+      "Ты серьёзно сейчас куришь грозовую крошку?"
+    ],
+    "\"Hey, Ted.  Alexander and Cass and I are heading to Z-Mobile for the last of the meth.  Keep the lizard fetus fed for us, OK?\"": [
+      "\"Hey, Ted.  Alexander and Cass and I are heading to Z-Mobile for the last of the Storm Grit.  Keep the lizard fetus fed for us, OK?\"",
+      "«Эй, Тед.  Мы с Александром и Кэсс идём в Z-Mobile за последними запасами грозовой крошки.  Покорми за нас эмбрион ящера, ладно?»"
+    ],
+    "Snort coke": [
+      "Use Grey Ash",
+      "Использовать серый пепел"
+    ],
+    "You extinguish the joint.": [
+      "You extinguish the Ashleaf roll.",
+      "Вы тушите свёрток пепельника."
+    ],
+    "crack pipe": [
+      "Glass Cinder pipe",
+      [
+        "Трубка для стеклянной золы",
+        "Трубки для стеклянной золы",
+        "Трубок для стеклянной золы",
+        "Трубки для стеклянной золы"
+      ]
+    ],
+    "Yeah, probably.  Sometimes I also dream that I am just like, a mote of dust, floating in a vast, uncaring galaxy.  That one makes me wish that my pot dealer, Filthy Dan, hadn't been eaten by a giant crab monster.": [
+      "Yeah, probably.  Sometimes I also dream that I am just like, a mote of dust, floating in a vast, uncaring galaxy.  That one makes me wish that my Ashleaf dealer, Filthy Dan, hadn't been eaten by a giant crab monster.",
+      "Ага, наверно.  Иногда мне снится, будто я, типа, всего лишь пылинка, плывущая в огромной равнодушной галактике.  После такого я жалею, что моего продавца пепельника, Грязного Дэна, сожрал гигантский чудовищный краб."
+    ],
+    "Uh, well probably?  I flew fixed-wing for work, but my interest in flying was for helitack - uh, that's helicopter transport for firefighting teams.  Anyway, I got a stupid pot conviction and that disqualified me.  Took a job with the airline to keep fresh until I could finish probation and get the records sealed.  Funny, you smoke some mary jane and they say you can't save lives with firefighting.  But they'll let you fly a plane with hundreds of people in it, not like anyone's ever crashed one of those on purpose before.  So yeah, get me a helicopter and I'd be happy to fly.": [
+      "Uh, well probably?  I flew fixed-wing for work, but my interest in flying was for helitack - uh, that's helicopter transport for firefighting teams.  Anyway, I got a stupid Ashleaf conviction and that disqualified me.  Took a job with the airline to keep fresh until I could finish probation and get the records sealed.  Funny, you smoke some Ashleaf and they say you can't save lives with firefighting.  But they'll let you fly a plane with hundreds of people in it, not like anyone's ever crashed one of those on purpose before.  So yeah, get me a helicopter and I'd be happy to fly.",
+      "Э-э, ну, наверное?  По работе я летал на самолётах, но мечтал о вертолётной перевозке пожарных бригад.  Потом меня по глупости осудили за пепельник, и я больше не подходил по требованиям.  Устроился в авиакомпанию, чтобы поддерживать навыки, пока не закончится испытательный срок и записи о судимости не закроют.  Забавно: покуришь пепельника — и тебе нельзя спасать людей от пожара.  Зато можно вести самолёт с сотнями пассажиров, словно никто никогда не направлял такой самолёт в землю намеренно.  Так что да, достань мне вертолёт, и я с удовольствием полечу."
+    ],
+    "Oh, well.  I don't really think of life that way, you know?  I guess I'm pretty happy to just hang out with you, doing the shit we're doing, seeing what life brings.  Still, I guess I could see settling down somewhere nice, somewhere quiet, somewhere zombie-free.  I bet it wouldn't take long to get enough food and supplies to live on forever, and then I'd just let myself turn into some kinda wild bush man, with a big crazy long beard.  I'd smell like weed and B.O. and I'd have this giant stack of books to read.  Other survivors would come find me, like a guru on a mountaintop, to ask me questions about Batman.  In time, as the old world was forgotten, I'd convince them that he was a real person.\"  He grins.  \"How 'bout you?": [
+      "Oh, well.  I don't really think of life that way, you know?  I guess I'm pretty happy to just hang out with you, doing the shit we're doing, seeing what life brings.  Still, I guess I could see settling down somewhere nice, somewhere quiet, somewhere zombie-free.  I bet it wouldn't take long to get enough food and supplies to live on forever, and then I'd just let myself turn into some kinda wild bush man, with a big crazy long beard.  I'd smell like Ashleaf and B.O. and I'd have this giant stack of books to read.  Other survivors would come find me, like a guru on a mountaintop, to ask me questions about Batman.  In time, as the old world was forgotten, I'd convince them that he was a real person.\"  He grins.  \"How 'bout you?",
+      "Ну что ж.  Я на самом деле не думаю о жизни таким образом, понимаешь?  Думаю, я очень рад просто тусоваться с тобой, делать то дерьмо, которое мы делаем, видеть, что преподносит жизнь.  Тем не менее, думаю, я мог бы поселиться где-нибудь в красивом, тихом месте, где нет зомби.  Могу поспорить, что не потребуется много времени, чтобы получить достаточно еды и припасов, чтобы жить вечно, и тогда я просто позволю себе превратиться в какого-нибудь дикого лесного человека с огромной, безумно длинной бородой.  Я бы пах пепельником и потом и у меня была бы огромная стопка книг для чтения.  Другие выжившие приходили бы ко мне, как к гуру на вершине горы, чтобы задавать вопросы о Бэтмене.  Со временем, когда старый мир будет забыт, я убежу их, что он был реальным человеком», — он ухмыляется, — «а ты что?"
+    ],
+    "*grins.  \"Okay, just wanted to clear that up.  I thought maybe I was having some kind of psychotic break, glad it's at least mutual.  Anyway, first place that comes to mind for that kinda stuff would be a hospital, but that's suicide.  Maybe a pharmacy?  Would they have the right stuff?  Seems like a stretch.  Maybe like, a vet clinic or a private surgery clinic might be safer?  I'll level with you, I never got into anything harder than Mary Jane, this is past my pay grade.\"": [
+      "*grins.  \"Okay, just wanted to clear that up.  I thought maybe I was having some kind of psychotic break, glad it's at least mutual.  Anyway, first place that comes to mind for that kinda stuff would be a hospital, but that's suicide.  Maybe a pharmacy?  Would they have the right stuff?  Seems like a stretch.  Maybe like, a vet clinic or a private surgery clinic might be safer?  I'll level with you, I never got into anything harder than Ashleaf, this is past my pay grade.\"",
+      "*ухмыляется.  «Ладно, просто хотел уточнить.  Я уж подумал, что у меня какой-то срыв; рад, что это хотя бы взаимно.  Первое место, которое приходит на ум, — больница, но идти туда самоубийство.  Может, аптека?  Найдётся ли там нужное?  Сомнительно.  Ветеринарная клиника или частная хирургия, пожалуй, безопаснее.  Скажу честно: я никогда не пробовал ничего сильнее пепельника.  Тут я не специалист». "
+    ],
+    "You're shivering, you need some crack.": [
+      "You are shivering and craving Glass Cinder.",
+      "Вас трясёт, и вы чувствуете тягу к Стеклянной золе."
+    ],
+    "You feel depressed.  Speed would help.": [
+      "You feel depressed and crave pulse compounds.",
+      "Вы чувствуете себя подавленно и ощущаете тягу к импульсным составам."
+    ],
+    "Are you getting stoned right now?": [
+      "Are you getting high on Ashleaf right now?",
+      "Ты сейчас под кайфом от пепельника?"
+    ],
+    "Is that the devil's lettuce I smell?": [
+      "Is that Ashleaf I smell?",
+      "Это пепельник так пахнет?"
+    ],
+    "A day without weed is a day wasted.": [
+      "A day without Ashleaf is a day wasted.",
+      "День без пепельника — день насмарку."
+    ],
+    "Best part of my day is lighting up.": [
+      "Best part of my day is lighting up an Ashleaf roll.",
+      "Лучшая часть дня — закурить пепельник."
+    ],
+    "Can I get a hit of that?": [
+      "Can I get a hit of Ashleaf?",
+      "Можно и мне затянуться пепельником?"
+    ],
+    "Damn, I need a hit of that now.": [
+      "Damn, I need a hit of Ashleaf now.",
+      "Чёрт, мне срочно нужна затяжка пепельника."
+    ],
+    "Don't be a dick, share the weed.": [
+      "Don't be a dick, share the Ashleaf.",
+      "Не будь мудаком, поделись пепельником."
+    ],
+    "Eh yo!  Lemme hit that!": [
+      "Eh yo!  Lemme get a hit of Ashleaf!",
+      "Эй! Дай затянуться пепельником!"
+    ],
+    "Fuck, I need a hit of that.": [
+      "Fuck, I need a hit of Ashleaf.",
+      "Чёрт, тоже хочется пепельника."
+    ],
+    "Goddamn, that's some quality weed.": [
+      "Goddamn, that's some quality Ashleaf.",
+      "Чёрт возьми, пепельник-то хорошего качества."
+    ],
+    "Hey, don't bogart the joint!": [
+      "Hey, don't hog the Ashleaf roll!",
+      "Эй, не зажимай свёрток!"
+    ],
+    "I can't imagine life without weed.": [
+      "I can't imagine life without Ashleaf.",
+      "Не представляю жизни без пепельника."
+    ],
+    "I don't know what I'd do without my daily smoke.": [
+      "I don't know what I'd do without my daily Ashleaf.",
+      "Не знаю, что делал бы без ежедневной порции пепельника."
+    ],
+    "I love getting high and going for a walk.": [
+      "I love getting high on Ashleaf and going for a walk.",
+      "Обожаю покурить пепельник и пойти прогуляться."
+    ],
+    "I love getting high and watching movies.": [
+      "I love getting high on Ashleaf and watching movies.",
+      "Обожаю покурить пепельник и посмотреть кино."
+    ],
+    "I love how weed helps me sleep.": [
+      "I love how Ashleaf helps me sleep.",
+      "Мне нравится, как пепельник помогает мне заснуть."
+    ],
+    "I love how weed helps me think outside the box.": [
+      "I love how Ashleaf helps me think outside the box.",
+      "Мне нравится, как пепельник помогает мне мыслить нестандартно."
+    ],
+    "I love how weed takes the edge off.": [
+      "I love how Ashleaf takes the edge off.",
+      "Мне нравится, как пепельник снимает напряжение."
+    ],
+    "I love the community around weed culture.": [
+      "I love the community around Ashleaf culture.",
+      "Мне нравится сообщество любителей пепельника."
+    ],
+    "I love the ritual of rolling a joint.": [
+      "I love the ritual of rolling an Ashleaf roll.",
+      "Мне нравится ритуал скручивания свёртка с пепельником."
+    ],
+    "I swear, weed makes food taste better.": [
+      "I swear, Ashleaf makes food taste better.",
+      "Клянусь, пепельник улучшает вкус пищи."
+    ],
+    "Man, I can smell the weed, can I have some?": [
+      "Man, I can smell the Ashleaf, can I have some?",
+      "Чувак, я чую пепельник. Угостишь?"
+    ],
+    "Man, I love the smell of good weed.": [
+      "Man, I love the smell of good Ashleaf.",
+      "Чувак, обожаю запах хорошего пепельника."
+    ],
+    "Mmm, that weed smells good.": [
+      "Mmm, that Ashleaf smells good.",
+      "М-м-м, пепельник отлично пахнет."
+    ],
+    "Nothing beats relaxing with a nice blunt.": [
+      "Nothing beats relaxing with a nice Ashleaf roll.",
+      "Ничто не сравнится с отдыхом и хорошим свёртком пепельника."
+    ],
+    "Nothing like a good joint to unwind.": [
+      "Nothing like a good Ashleaf roll to unwind.",
+      "Нет ничего лучше хорошего свёртка с пепельником, чтобы расслабиться."
+    ],
+    "Pass the blunt, don't be a dick.": [
+      "Pass the Ashleaf roll, don't be a dick.",
+      "Передай свёрток, не будь жлобом."
+    ],
+    "Pass the weed, asshole.": [
+      "Pass the Ashleaf, asshole.",
+      "Передай пепельник, придурок."
+    ],
+    "Puff, puff, pass.": [
+      "Smoke some Ashleaf, then pass the roll.",
+      "Покури пепельник и передай свёрток дальше."
+    ],
+    "Roll, roll, roll your joint…": [
+      "Roll, roll, roll your Ashleaf roll…",
+      "Крути, крути, свёрток с пепельником…"
+    ],
+    "Shit, that weed is potent.": [
+      "Shit, that Ashleaf is potent.",
+      "Чёрт, пепельник-то мощный."
+    ],
+    "Stop hogging the joint, fucker.": [
+      "Stop hogging the Ashleaf roll, fucker.",
+      "Не жадничай со свёртком, ублюдок."
+    ],
+    "That's some good-ass weed.": [
+      "That's some good-ass Ashleaf.",
+      "Вот это пепельник — просто отличный."
+    ],
+    "That's some potent-ass weed.": [
+      "That's some potent-ass Ashleaf.",
+      "Вот это мощный пепельник."
+    ],
+    "Weed helps me deal with pain.": [
+      "Ashleaf helps me deal with pain.",
+      "Пепельник помогает мне справиться с болью."
+    ],
+    "Weed helps me focus and get stuff done.": [
+      "Ashleaf helps me focus and get stuff done.",
+      "Пепельник помогает мне сосредоточиться на делах."
+    ],
+    "Weed is my favorite way to chill out.": [
+      "Ashleaf is my favorite way to chill out.",
+      "Пепельник — мой любимый способ расслабиться."
+    ],
+    "Weed is my go-to for creativity.": [
+      "Ashleaf is my go-to for creativity.",
+      "Пепельник для меня — источник вдохновения."
+    ],
+    "Weed is my happy place.": [
+      "Ashleaf is my happy place.",
+      "Пепельник — моё место спокойствия."
+    ],
+    "Weed is the best way to start the weekend.": [
+      "Ashleaf is the best way to start the weekend.",
+      "Пепельник — лучший способ начать выходные."
+    ],
+    "Weed is the perfect way to relax after a long day.": [
+      "Ashleaf is the perfect way to relax after a long day.",
+      "Пепельник — идеальный способ расслабиться после долгого дня."
+    ],
+    "Weed just makes everything better.": [
+      "Ashleaf just makes everything better.",
+      "Пепельник просто делает всё лучше."
+    ],
+    "Weed just makes everything more fun.": [
+      "Ashleaf just makes everything more fun.",
+      "Пепельник просто делает всё веселее."
+    ],
+    "Weed just makes me feel more at peace.": [
+      "Ashleaf just makes me feel more at peace.",
+      "От пепельника мне становится спокойнее."
+    ],
+    "Weed just makes me feel so chill.": [
+      "Ashleaf just makes me feel so chill.",
+      "От пепельника мне так спокойно."
+    ],
+    "Weed makes me feel more connected to the world.": [
+      "Ashleaf makes me feel more connected to the world.",
+      "Пепельник помогает мне почувствовать связь с миром."
+    ],
+    "Weed makes music sound so much better.": [
+      "Ashleaf makes music sound so much better.",
+      "Пепельник делает музыку намного лучше."
+    ],
+    "You blazing up?  Hook me up!": [
+      "You smoking Ashleaf?  Hook me up!",
+      "Куришь пепельник? Угости!"
+    ],
+    "You blazing?  I'm down.": [
+      "You smoking Ashleaf?  I'm down.",
+      "Куришь пепельник? Я за."
+    ],
+    "You smoking the devil's lettuce?  Nice.": [
+      "You smoking Ashleaf?  Nice.",
+      "Куришь пепельник? Неплохо."
+    ],
+    "A friend of mine started with weed and ended up in rehab.": [
+      "A friend of mine started with Ashleaf and ended up in rehab.",
+      "Мой друг начал с пепельника, а в итоге оказался в реабилитационном центре."
+    ],
+    "A good friend of mine threw away his future because of weed.": [
+      "A good friend of mine threw away his future because of Ashleaf.",
+      "Мой хороший друг загубил своё будущее из-за пепельника."
+    ],
+    "Damn, that's a stanky joint.": [
+      "Damn, that Ashleaf roll stinks.",
+      "Чёрт, как воняет этот свёрток."
+    ],
+    "Damn, that's some chronic.": [
+      "Damn, that's some Ashleaf.",
+      "Чёрт, вот это пепельник!"
+    ],
+    "Fuck, that's some dank weed.": [
+      "Fuck, that's some potent Ashleaf.",
+      "Чёрт, пепельник-то крепкий."
+    ],
+    "Fuck, you're gonna get us all baked.": [
+      "Fuck, you're gonna get us all high on Ashleaf.",
+      "Чёрт, вы всех нас пепельником накурите."
+    ],
+    "Fuck, you're toking up, aren't you?": [
+      "Fuck, you're smoking Ashleaf, aren't you?",
+      "Чёрт, ты ведь куришь пепельник, да?"
+    ],
+    "Getting clean from weed saved my life.": [
+      "Getting clean from Ashleaf saved my life.",
+      "Отказ от пепельника спас мне жизнь."
+    ],
+    "Getting clean from weed was tough, but it saved my life.": [
+      "Getting clean from Ashleaf was tough, but it saved my life.",
+      "Бросить пепельник было тяжело, но это спасло мне жизнь."
+    ],
+    "Holy hell, that's some strong-ass weed.": [
+      "Holy hell, that's some strong-ass Ashleaf.",
+      "Чёрт, пепельник-то крепкий."
+    ],
+    "I had a friend who got hooked on weed, couldn't function without it.": [
+      "I had a friend who got hooked on Ashleaf, couldn't function without it.",
+      "Мой знакомый подсел на пепельник и уже не мог без него обходиться."
+    ],
+    "I had to give up weed to focus on my career and family.": [
+      "I had to give up Ashleaf to focus on my career and family.",
+      "Мне пришлось отказаться от пепельника, чтобы сосредоточиться на карьере и семье."
+    ],
+    "I had to quit weed to get my life back on track.": [
+      "I had to quit Ashleaf to get my life back on track.",
+      "Мне пришлось бросить пепельник, чтобы наладить свою жизнь."
+    ],
+    "I know it seems harmless, but weed can really mess with your head.": [
+      "I know it seems harmless, but Ashleaf can really mess with your head.",
+      "Кажется, вреда нет, но пепельник и правда может повредить тебе голову."
+    ],
+    "I know someone who got hooked on weed and lost everything they cared about.": [
+      "I know someone who got hooked on Ashleaf and lost everything they cared about.",
+      "Я знаю человека, который подсел на пепельник и потерял всё, что ему было дорого."
+    ],
+    "I quit weed cold turkey, and I feel so much better now.": [
+      "I quit Ashleaf cold turkey, and I feel so much better now.",
+      "Я бросил пепельник и теперь чувствую себя гораздо лучше."
+    ],
+    "I used to think weed was harmless, until it started affecting my memory and focus.": [
+      "I used to think Ashleaf was harmless, until it started affecting my memory and focus.",
+      "Раньше я считал пепельник безвредным, пока он не стал влиять на память и внимание."
+    ],
+    "I used to think weed was no big deal, but it nearly ruined me.": [
+      "I used to think Ashleaf was no big deal, but it nearly ruined me.",
+      "Раньше я думал, что пепельник — ерунда, но он чуть не разрушил мою жизнь."
+    ],
+    "It might seem harmless now, but weed can really mess up your life.": [
+      "It might seem harmless now, but Ashleaf can really mess up your life.",
+      "Сейчас он может казаться безвредным, но пепельник способен разрушить твою жизнь."
+    ],
+    "Man, you trying to hotbox us all?": [
+      "Man, you trying to get us all high on Ashleaf?",
+      "Эй, ты решил всех нас накурить?"
+    ],
+    "Quitting weed helped me find clarity and purpose in life.": [
+      "Quitting Ashleaf helped me find clarity and purpose in life.",
+      "Отказ от пепельника помог мне обрести ясность и цель в жизни."
+    ],
+    "Quitting weed helped me get my shit together.  Best thing I ever did.": [
+      "Quitting Ashleaf helped me get my shit together.  Best thing I ever did.",
+      "Бросить пепельник помогло мне собраться. Лучшее решение в моей жизни."
+    ],
+    "Quitting weed was hard, but it was worth it.": [
+      "Quitting Ashleaf was hard, but it was worth it.",
+      "Бросить пепельник было тяжело, но оно того стоило."
+    ],
+    "Quitting weed was one of the best decisions I ever made.": [
+      "Quitting Ashleaf was one of the best decisions I ever made.",
+      "Бросить пепельник — одно из лучших решений в моей жизни."
+    ],
+    "Quitting weed was one of the hardest things I did, but it was worth it.": [
+      "Quitting Ashleaf was one of the hardest things I did, but it was worth it.",
+      "Бросить пепельник было одним из самых трудных моих решений, но оно того стоило."
+    ],
+    "Shit, you're getting lit!": [
+      "Shit, you're getting high on Ashleaf!",
+      "Чёрт, ты уже накурился пепельником!"
+    ],
+    "Smells like someone's getting high.": [
+      "Smells like someone's getting high on Ashleaf.",
+      "Похоже, кто-то накурился пепельником."
+    ],
+    "That weed is loud as hell.": [
+      "That Ashleaf is loud as hell.",
+      "От пепельника несёт за версту."
+    ],
+    "That weed smells like ass.": [
+      "That Ashleaf smells like ass.",
+      "Пепельник воняет как задница."
+    ],
+    "That weed's loud as fuck.": [
+      "That Ashleaf's loud as fuck.",
+      "От этого пепельника разит на всю округу."
+    ],
+    "That's some strong-ass ganja.": [
+      "That's some strong-ass Ashleaf.",
+      "Вот это крепкий пепельник."
+    ],
+    "Weed might seem fun now, but it can lead to a lot of problems.": [
+      "Ashleaf might seem fun now, but it can lead to a lot of problems.",
+      "Пепельник может казаться забавой, но он приводит к серьёзным проблемам."
+    ],
+    "Weed might seem fun now, but it's not worth the long-term damage.": [
+      "Ashleaf might seem fun now, but it's not worth the long-term damage.",
+      "Пепельник может казаться безобидным, но последствия не стоят того."
+    ],
+    "Weed might seem harmless, but it can lead to a lot of pain.": [
+      "Ashleaf might seem harmless, but it can lead to a lot of pain.",
+      "Пепельник может казаться безвредным, но он приносит немало боли."
+    ],
+    "Weed was a crutch for me.  Letting go of it made me stronger.": [
+      "Ashleaf was a crutch for me.  Letting go of it made me stronger.",
+      "Пепельник был для меня костылём. Отказ от него сделал меня сильнее."
+    ],
+    "You blazing that kush?": [
+      "You smoking Ashleaf?",
+      "Куришь пепельник?"
+    ],
+    "You got that sticky icky.": [
+      "You got any Ashleaf?",
+      "У тебя есть пепельник?"
+    ],
+    "You gotta be careful with weed.  It can take over your life.": [
+      "You gotta be careful with Ashleaf.  It can take over your life.",
+      "Будь осторожен с пепельником: он может завладеть всей твоей жизнью."
+    ],
+    "You gotta think about your future.  Weed can hold you back big time.": [
+      "You gotta think about your future.  Ashleaf can hold you back big time.",
+      "Подумай о будущем. Пепельник может сильно тебя затормозить."
+    ],
+    "You smoking that dank shit, huh?": [
+      "You smoking potent Ashleaf, huh?",
+      "Куришь крепкий пепельник, да?"
+    ],
+    "You trying to get us all high?": [
+      "You trying to get us all high on Ashleaf?",
+      "Ты хочешь всех нас накурить пепельником?"
+    ],
+    "Are you sure it's a good idea to smoke that now?": [
+      "Are you sure it's a good idea to smoke Ashleaf now?",
+      "Ты уверен, что сейчас стоит курить пепельник?"
+    ],
+    "Are you smoking?  Share, man.": [
+      "Are you smoking Ashleaf?  Share, man.",
+      "Ты пепельник куришь? Угости, чувак."
+    ],
+    "Nothing like a good smoke to clear my mind.": [
+      "Nothing like smoking Ashleaf to clear my mind.",
+      "Нет ничего лучше, чем покурить пепельник и прояснить мысли."
+    ],
+    "Fuck me, that's dank.": [
+      "Fuck me, that's potent Ashleaf.",
+      "Чёрт, пепельник-то мощный."
+    ],
+    "Holy shit, can you smoke that elsewhere?": [
+      "Holy shit, can you smoke Ashleaf elsewhere?",
+      "Чёрт возьми, можешь покурить пепельник где-нибудь в другом месте?"
+    ],
+    "That's some heavy shit you're smoking.": [
+      "That's some heavy Ashleaf you're smoking.",
+      "Чёрт, какой крепкий пепельник ты куришь."
+    ],
+    "You know, I used to smoke that stuff all the time, but it was messing up my life.": [
+      "You know, I used to smoke Ashleaf all the time, but it was messing up my life.",
+      "Знаешь, я раньше постоянно курил пепельник, но он губил мою жизнь."
+    ],
+    "Crack is a dead end.": [
+      "Glass Cinder is a dead end.",
+      "Стеклянная зола — тупик."
+    ],
+    "Crack is a death sentence, <name_g>.": [
+      "Glass Cinder is a death sentence, <name_g>.",
+      "Стеклянная зола — смертный приговор, <name_g>."
+    ],
+    "Crack is a hell of a drug.": [
+      "Glass Cinder is a hell of a drug.",
+      "Стеклянная зола — чертовски опасное вещество."
+    ],
+    "Crack is a one-way ticket to hell.": [
+      "Glass Cinder is a one-way ticket to hell.",
+      "Стеклянная зола — билет в один конец, прямиком в ад."
+    ],
+    "Crack?  Really?  You're better than this.": [
+      "Glass Cinder?  Really?  You're better than this.",
+      "Стеклянная зола? Серьёзно? Ты способен на большее."
+    ]
+  },
+  "RU_FORMS": {
+    "coke": [
+      "Серый пепел",
+      "Серого пепла",
+      "Серого пепла",
+      "Серый пепел"
+    ],
+    "cocaine_topical": [
+      "Мазь серого пепла",
+      "Мазь серого пепла",
+      "Мазь серого пепла",
+      "Мазь серого пепла"
+    ],
+    "crack": [
+      "Стеклянная зола",
+      "Стеклянная зола",
+      "Стеклянная зола",
+      "Стеклянная зола"
+    ],
+    "heroin": [
+      "Чёрная вуаль",
+      "Чёрная вуаль",
+      "Чёрная вуаль",
+      "Чёрная вуаль"
+    ],
+    "morphine": [
+      "Тихий омут",
+      "Тихий омут",
+      "Тихий омут",
+      "Тихий омут"
+    ],
+    "codeine": [
+      "Глухой звон",
+      "Глухой звон",
+      "Глухой звон",
+      "Глухой звон"
+    ],
+    "oxycodone": [
+      "Каменный сон",
+      "Каменный сон",
+      "Каменный сон",
+      "Каменный сон"
+    ],
+    "tramadol": [
+      "Тусклая искра",
+      "Тусклая искра",
+      "Тусклая искра",
+      "Тусклая искра"
+    ],
+    "adderall": [
+      "Ржавый импульс",
+      "Ржавый импульс",
+      "Ржавый импульс",
+      "Ржавый импульс"
+    ],
+    "meth": [
+      "Неочищенная грозовая крошка",
+      "Неочищенная грозовая крошка",
+      "Неочищенная грозовая крошка",
+      "Неочищенная грозовая крошка"
+    ],
+    "pure_meth": [
+      "Очищенная грозовая крошка",
+      "Очищенная грозовая крошка",
+      "Очищенная грозовая крошка",
+      "Очищенная грозовая крошка"
+    ],
+    "cola_meth": [
+      "Грозовая кола",
+      "Грозовая кола",
+      "Грозовая кола",
+      "Грозовая кола"
+    ],
+    "lsd": [
+      "Осколок эха",
+      "Осколок эха",
+      "Осколок эха",
+      "Осколок эха"
+    ],
+    "diazepam": [
+      "Мёртвый штиль",
+      "Мёртвый штиль",
+      "Мёртвый штиль",
+      "Мёртвый штиль"
+    ],
+    "xanax": [
+      "Пыльный занавес",
+      "Пыльный занавес",
+      "Пыльный занавес",
+      "Пыльный занавес"
+    ],
+    "prozac": [
+      "Бледный рассвет",
+      "Бледный рассвет",
+      "Бледный рассвет",
+      "Бледный рассвет"
+    ],
+    "thorazine": [
+      "Серая завеса",
+      "Серая завеса",
+      "Серая завеса",
+      "Серая завеса"
+    ],
+    "pills_sleep": [
+      "Ночное стекло",
+      "Ночное стекло",
+      "Ночное стекло",
+      "Ночное стекло"
+    ],
+    "melatonin_tablet": [
+      "Сумеречное зерно",
+      "Сумеречное зерно",
+      "Сумеречное зерно",
+      "Сумеречное зерно"
+    ],
+    "weed": [
+      "Пепельник",
+      "Пепельника",
+      "Пепельников",
+      "Пепельники"
+    ],
+    "cannabis": [
+      "Растение пепельник",
+      "Растение пепельник",
+      "Растение пепельник",
+      "Растение пепельник"
+    ],
+    "seed_weed": [
+      "Семена пепельника",
+      "Семена пепельника",
+      "Семена пепельника",
+      "Семена пепельника"
+    ],
+    "joint": [
+      "Свёрток пепельника",
+      "Свёртка пепельника",
+      "Свёртков пепельника",
+      "Свёртки пепельника"
+    ],
+    "joint_lit": [
+      "Зажжённый свёрток пепельника",
+      "Зажжённого свёртка пепельника",
+      "Зажжённых свёртков пепельника",
+      "Зажжённые свёртки пепельника"
+    ],
+    "joint_roach": [
+      "Обгорелый свёрток пепельника",
+      "Обгорелого свёртка пепельника",
+      "Обгорелых свёртков пепельника",
+      "Обгорелые свёртки пепельника"
+    ],
+    "brownie_weed": [
+      "Брауни с пепельником",
+      "Брауни с пепельником",
+      "Брауни с пепельником",
+      "Брауни с пепельником"
+    ],
+    "space_cake": [
+      "Пирог с пепельником",
+      "Пирог с пепельником",
+      "Пирог с пепельником",
+      "Пирог с пепельником"
+    ],
+    "hi_q_shatter": [
+      "Осколки пепельника",
+      "Осколки пепельника",
+      "Осколки пепельника",
+      "Осколки пепельника"
+    ],
+    "hi_q_wax": [
+      "Воск пепельника",
+      "Воск пепельника",
+      "Воск пепельника",
+      "Воск пепельника"
+    ],
+    "hi_q_distillate": [
+      "Дистиллят пепельника",
+      "Дистиллят пепельника",
+      "Дистиллят пепельника",
+      "Дистиллят пепельника"
+    ],
+    "f_wildweed": [
+      "Дикий пепельник",
+      "Дикий пепельник",
+      "Дикий пепельник",
+      "Дикий пепельник"
+    ],
+    "f_mutpoppy": [
+      "Сумеречник",
+      "Сумеречник",
+      "Сумеречник",
+      "Сумеречник"
+    ],
+    "poppy_bud": [
+      "Коробочка сумеречника",
+      "Коробочки сумеречника",
+      "Коробочек сумеречника",
+      "Коробочки сумеречника"
+    ],
+    "seed_poppy_bud": [
+      "Семена сумеречника",
+      "Семена сумеречника",
+      "Семена сумеречника",
+      "Семена сумеречника"
+    ],
+    "poppy_pain": [
+      "Обезболивающий настой сумеречника",
+      "Обезболивающих настоя сумеречника",
+      "Обезболивающих настоев сумеречника",
+      "Обезболивающие настои сумеречника"
+    ],
+    "poppy_sleep": [
+      "Снотворный настой сумеречника",
+      "Снотворных настоя сумеречника",
+      "Снотворных настоев сумеречника",
+      "Снотворные настои сумеречника"
+    ],
+    "poppysyrup": [
+      "Сироп от кашля сумеречника",
+      "Сиропа от кашля сумеречника",
+      "Сиропов от кашля сумеречника",
+      "Сиропы от кашля сумеречника"
+    ],
+    "f_datura": [
+      "Лунный морок",
+      "Лунный морок",
+      "Лунный морок",
+      "Лунный морок"
+    ],
+    "datura_seed": [
+      "Семена лунного морока",
+      "Семена лунного морока",
+      "Семена лунного морока",
+      "Семена лунного морока"
+    ]
+  }
+}

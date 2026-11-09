@@ -1,0 +1,20 @@
+# Survivor Edition — independent modified edition
+<color_light_cyan>Cataclysm: Dark Days Ahead — Survivor Edition</color>
+<color_white>Edition version: 1.0.0-rc.1. Based on CDDA 0.I (Ito).</color>
+
+This is an independent modified edition. It is not created or endorsed by the CDDA team.
+The first release preserves the CDDA gameplay rules. Original game and resource authors are identified in Credits and the distribution's license notices.
+
+<color_white>Getting started</color>
+Create a world and character through New Game. Press Enter in gameplay for the action menu; ? shows your key bindings. Help is available with 0.
+Shift+S saves the game and returns to the main menu. Keep the window open while saving.
+
+Edition saves and settings use a separate user profile. See README_EN.md next to the game.
+
+<color_white>Open licenses</color>
+The upstream CDDA project is distributed under CC BY-SA 3.0. Purchasing the edition does not remove rights granted by applicable open licenses. Original credits and notices are preserved.
+Upstream game: https://cataclysmdda.org/
+License: https://creativecommons.org/licenses/by-sa/3.0/
+Individual libraries, fonts and other components retain their own licenses, including GPL and LGPL. Author credits are available in Credits; complete terms are in legal/THIRD_PARTY_NOTICES_EN.md beside the game.
+
+GNU GPLv3 scheme prepared for the modified program: legal/PROGRAM_LICENSE_SCHEME_EN.md. Complete source: legal/source/corresponding-source.zip.
